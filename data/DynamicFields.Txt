@@ -1,0 +1,1797 @@
+D0	Symbol name - Not used for Snapshot or Tick Data - please see H fields
+D1	Time in minutes of the day (0..1440)
+D2	Last price
+D3	Last volume
+D4	Bid price
+D5	Bid size
+D6	Ask price
+D7	Ask size
+D8	Bid market
+D9	Best bid time (in minutes of the day)
+D10	Best bid price
+D11	Best bid size
+D12	Ask market
+D13	Best ask time (in minutes of the day)
+D14	Best ask price
+D15	Best ask size
+D16	Cumulative volume
+D17	Open price
+D18	High price
+D19	Low price
+D20	Yesterday's close price
+D21	Open interest
+D22	System time - day
+D23	System time - month
+D24	System time - year
+D25	System time - hour
+D26	System time - minute
+D27	System time - second
+D28	TIC error code
+D29	TIC error text
+D30	# of trades since market opening
+D31	German Spot price (Kassakurs)
+D32	Previous day's volume
+D33	Estimated volume (= cumulative volume for futures)
+D34	Settlement price
+D35	Previous day's settlement
+D36	Opening range 1
+D37	Opening range 2
+D38	Closing range 1
+D39	Closing range 2
+D40	Special range 1
+D41	Special range 2
+D42	Limit high
+D43	Limit low
+D44	LME cash/forward month
+D45	LME spread month
+D46	LME price qualifier
+D47	LME dealer
+D48	Microseconds since midnight, original value where provided by the exchange
+D49	Spot qualifier (for IBIS(213): broker, for FFM(200): qualifier)
+D50	Last qualifier (for IBIS(213): broker, for FFM(200): qualifier)
+D51	Bid qualifier (for IBIS(213): broker, for FFM(200): qualifier)
+D52	Ask qualifier (for IBIS(213): broker, for FFM(200): qualifier)
+D53	German Spot price (Kassakurs)
+D54	Internal use only (TF Field Code)
+D55	Internal use only
+D56	Internal use only
+D57	LSE mid price
+D58	Composite high price
+D59	Composite low price
+D76	LME cash/forward day
+D77	LME cash/forward year
+D78	LME spread month day
+D79	LME spread month year
+D80	LME price value
+D81	LME bate code
+D82	LME contango (to indicate neg. prices)
+D83	LME volume
+D84	Multiplicator for the following values
+D85	Value
+D86	Autoquote bid
+D87	Autoquote ask
+D88	Bank name
+D89	City
+D90	Forex bid
+D91	Forex ask
+D92	Quote qualifier (London am, pm, ...)
+D93	Footnote
+D94	Average maturity
+D95	7 days yield
+D96	Effective 7 days yield
+D97	Asset
+D98	Net asset value
+D99	Offer
+D100	Capital gain
+D101	Dividend
+D102	Split dividend
+D103	NAV net change
+D104	Previous days NAV
+D105	Beginning NAV
+D106	Closing NAV
+D107	Recalculate net change fields ()
+D108	Bit flag to updated last/high/low/open/vol/composite
+D109	Best bid/ask values packet in a binary data block
+D110	Chart update packet in a binary data block
+D111	Open indicator flag
+D112	High indicator flag
+D113	Low indicator flag
+D114	Bid indicator flag
+D115	Ask indicator flag
+D116	Sub market
+D117	Chart tick resolution in minutes
+D128	Indicative bid
+D129	Indicative bid size
+D130	Indicative bid member
+D131	Indicative ask
+D132	Indicative ask size
+D133	Indicative ask member
+D134	Limbo bid
+D135	Limbo bid size
+D136	Limbo ask
+D137	Limbo ask size
+D138	Trade indicator flag
+D139	Ex divident flag
+D140	Theoretical price
+D141	Wholesale volume/Theoretical Volume
+D142	# of wholesale trades
+D143	Retail volume
+D144	# of retail trades
+D145	AEO book bid / implied bid
+D146	AEO book bid size / implied bid size
+D147	AEO book ask / implied ask
+D148	AEO book ask size / implied ask size
+D149	Asset bid joint flag
+D150	Asset ask joint flag
+D151	Close indicator flag
+D152	Historical underlining value
+D153	Days to expiration
+D154	Total # of transactions
+D155	Suspended time
+D156	Compensation price
+D157	Contango price
+D158	Contango rate
+D159	Interest rate
+D160	Trade inc.vol
+D161	Trade cum.vol
+D162	Suspended
+D163	Change 1 year
+D164	Change (opening level)
+D165	Change - settlement
+D166	Quoted shares
+D167	Bid no. 1
+D168	Bid no. 2
+D169	Bid no. 3
+D170	Bid no. 4
+D171	Bid no. 5
+D172	Bid no. 6
+D173	Bid vol. 1
+D174	Bid vol. 2
+D175	Bid vol. 3
+D176	Bid vol. 4
+D177	Bid vol. 5
+D178	Bid vol. 6
+D179	Bid 1
+D180	Bid 2
+D181	Bid 3
+D182	Bid 4
+D183	Bid 5
+D184	Bid 6
+D185	Ask no. 1
+D186	Ask no. 2
+D187	Ask no. 3
+D188	Ask no. 4
+D189	Ask no. 5
+D190	Ask no. 6
+D191	Ask vol. 1
+D192	Ask vol. 2
+D193	Ask vol. 3
+D194	Ask vol. 4
+D195	Ask vol. 5
+D196	Ask vol. 6
+D197	Ask 1
+D198	Ask 2
+D199	Ask 3
+D200	Ask 4
+D201	Ask 5
+D202	Ask 6
+D203	Origin market
+D204	Traded Currency
+D205	Block trade time
+D206	Block price
+D207	Block volume
+D208	Fix price
+D209	Fix bid
+D210	Index value/Total Return Index Value
+D211	Fix ask
+D212	Fourchette bid
+D213	Fourchette ask
+D214	Origination market of last trade for composite updates
+D216	Official price / Base price for Japan
+D217	Reference price (== close for net change calc)
+D218	Bid no. 7
+D219	Bid no. 8
+D220	Bid no. 9
+D221	Bid no. 10
+D222	Bid vol. 7
+D223	Bid vol. 8
+D224	Bid vol. 9
+D225	Bid vol. 10
+D226	Bid 7
+D227	Bid 8
+D228	Bid 9
+D229	Bid 10
+D230	Ask no. 7
+D231	Ask no. 8
+D232	Ask no. 9
+D233	Ask no. 10
+D234	Ask vol. 7
+D235	Ask vol. 8
+D236	Ask vol. 9
+D237	Ask vol. 10
+D238	Ask 7
+D239	Ask 8
+D240	Ask 9
+D241	Ask 10
+D242	VWAP volume (ulong)
+D243	VWAP price (frac)
+D244	Overnight flag
+D245	Real-time ISIN (independent of Static ISIN Field
+D246	LME Daily moving Average Settlement (TAPO)
+D247	LME National Average
+D248	LME Volatility
+D249	Reserved for internal use
+D250	Link symbol (mkt,sec,symbol)
+D251	New subscription data packet in a binary data block
+D252	Subscription for delayed data
+D253	Server command packet in a binary data block
+D254	File transmission data packet in a binary data block
+D255	Subscription data packet in a binary data block
+D256	Overnight Bid
+D257	Overnight Ask
+D258	Spot/Next Bid
+D259	Spot/Next Ask
+D260	Tomorrow/Next Bid
+D261	Tomorrow/Next Ask
+D262	1 Week Bid
+D263	1 Week Ask
+D264	2 Weeks Bid
+D265	2 Weeks Ask
+D266	3 Weeks Bid
+D267	3 Weeks Ask
+D268	1 Month Bid
+D269	1 Month Ask
+D270	2 Months Bid
+D271	2 Months Ask
+D272	3 Months Bid
+D273	3 Months Ask
+D274	4 Months Bid
+D275	4 Months Ask
+D276	5 Months Bid
+D277	5 Months Ask
+D278	6 Months Bid
+D279	6 Months Ask
+D280	9 Months Bid
+D281	9 Months Ask
+D282	1 Year Bid
+D283	1 Year Ask
+D284	2 Years Bid
+D285	2 Years Ask
+D286	3 Years Bid
+D287	3 Years Ask
+D288	4 Years Bid
+D289	4 Years Ask
+D290	5 Years Bid
+D291	5 Years Ask
+D292	7 Months Bid
+D293	7 Months Ask
+D294	8 Months Bid
+D295	8 Months Ask
+D296	10 Months Bid
+D297	10 Months Ask
+D298	11 Months Bid
+D299	11 Months Ask
+D300	6 Years Bid
+D301	6 Years Ask
+D302	7 Years Bid
+D303	7 Years Ask
+D304	10 Years Bid
+D305	10 Years Ask
+D306	Bid - London AM Fixing
+D307	Ask - London AM Fixing
+D308	Bid - 1 Month Forward
+D309	Ask - 1 Month Forward
+D310	Bid - London PM Fixing
+D311	Ask - London PM Fixing
+D312	Bid - 2 Month Forward
+D313	Ask - 2 Month Forward
+D314	Bid - London Close
+D315	Ask - London Close
+D316	Bid - 3 Month Forward
+D317	Ask - 3 Month Forward
+D318	Bid - London Fixing
+D319	Ask - London Fixing
+D320	Bid - 6 Month Forward
+D321	Ask - 6 Month Forward
+D322	Bid - London Open
+D323	Ask - London Open
+D324	Bid - 1 Year Forward
+D325	Ask - 1 Year Forward
+D326	Bid - New York Close
+D327	Ask - New York Close
+D328	Bid - 3 Month Forward Fixing
+D329	Ask - 3 Month Forward Fixing
+D330	Bid - Sydney Close
+D331	Ask - Sydney Close
+D332	Bid - 6 Month Forward Fixing
+D333	Ask - 6 Month Forward Fixing
+D334	Bid - Sydney Open
+D335	Ask - Sydney Open
+D336	Bid - 1 Year Forward Fixing
+D337	Ask - 1 Year Forward Fixing
+D338	Bid - Zurich Close
+D339	Ask - Zurich Close
+D340	Bid - Fixing
+D341	Ask - Fixing
+D342	Bid - Zurich Fixing
+D343	Ask - Zurich Fixing
+D344	Bid - Frankfurt Fixing
+D345	Ask - Frankfurt Fixing
+D346	Bid - Zurich Metal Pool
+D347	Ask - Zurich Metal Pool
+D348	Bid - Hong Kong Close
+D349	Ask - Hong Kong Close
+D350	Ask high
+D351	Ask low
+D352	Ask close
+D353	Mid high
+D354	Mid low
+D355	Cash tom bid (Indian markets only)
+D356	Cash tom ask (Indian markets only)
+D357	Cash Spot Bid (Indian Markets only)
+D358	Cash Spot Ask (Indian Markets only)
+D359	Tom spot bid (Indian Markets only)
+D360	Tom spot Ask (Indian Markets only)
+D361	Reference rate (Indian Markets only)
+D362	Last yield
+D363	Bid yield (Indian Markets only)
+D364	Ask yield (Indian Markets only)
+D365	VWAP yield (Indian Markets only)
+D366	Open yield (Indian Markets only)
+D367	High yield (Indian Markets only)
+D368	Low yield (Indian Markets only)
+D369	Close yield (Indian Markets only)
+D370	Net change yield (Indian Markets only)
+D371	Net change % yield (Indian Markets only)
+D372	Open (SGX Derivatives) T+1 Session
+D373	Open Type (SGX Derivatives) T+1 Session
+D374	Traded High (SGX Derivatives) T+1 Session
+D375	Traded High Type (SGX Derivatives) T+1 Session
+D376	Traded Low (SGX Derivatives) T+1 Session
+D377	Traded Low Type (SGX Derivatives) T+1 Session
+D378	Close (SGX Derivatives) T+1 Session
+D379	Outright Traded Volume (SGX Derivatives) T+1 Session
+D380	Volume Weighted Average Price (SGX Derivatives) T+1 Session
+D381	Real time volatility (implied)
+D382	Realtime Strike
+D383	Mid Yield
+D384	Best bid Number of orders
+D385	Best ask Number of orders
+D386	Bid Side Value Not Executed (div. by 100)
+D387	Ask Side Value Not Executed (div. By 100)
+D388	Money Flow Value Executed (div. By 100) (LSE on book Turnover)
+D389	Off Book Money Flow Value (div. By 100) (LSE off book Turnover)
+D390	Buy Percentage
+D391	Buy volume (total)
+D392	Sell Percentage
+D393	Sell Volume (total)
+D394	Mid high
+D395	Time of mid high (in min of day)
+D396	Mid low
+D397	Time of mid low (in min of day)
+D398	Uncrossing volume
+D399	VWAP from all trades
+D400	VWAP from automatic trades
+D401	Add/mod/del flag
+D402	0=bid, 1=ask
+D403	Position
+D404	Price
+D405	Size
+D406	# of quotes at given price
+D407	Market maker code
+D408	Trading period name
+D409	Depth entry id, (unique identifier per instrument)
+D410	Automatic trades Total volume
+D411	Non-automatic trades Total volume (LSE on book volume)
+D412	Time weighted average spread price (LSE off book Volume)
+D413	period length of TWAS calculation (in seconds)
+D414	Creation timestamp of depth entry (in min of day)
+D415	Creation date of order book entry (in Julian format)
+D416	Depth code
+D417	Close bid
+D418	Close ask
+D419	Depth end
+D420	LSE DOL High
+D421	LSE DOL Low
+D422	Trading Period information
+D423	Calculated Turnover
+D424	BSE High Limit
+D425	BSE Low Limit
+D426	52 Week High (Not Used)
+D427	52 Week Low (Not Used)
+D428	Open Interest Change
+D429	Exchange specific Trade type
+D430	Today's Close Price
+D431	Date of Today's Close Price
+D432	Buyer in a trade
+D433	Seller in a trade
+D434	Stock profit (Logical line funds)
+D435	Interim Profit (Logical line funds)
+D436	Real estate Profit (Logical line funds)
+D437	Turnover
+D438	Date of last trade activity (used to provide the date for EOD only data produced from files)
+D439	Bit flag to copy news stories to many
+D440	Bid no. 11
+D441	Bid no. 12
+D442	Bid no. 13
+D443	Bid no. 14
+D444	Bid no. 15
+D445	Bid no. 16
+D446	Bid no. 17
+D447	Bid no. 18
+D448	Bid no. 19
+D449	Bid no. 20
+D450	Bid vol. 11
+D451	Bid vol. 12
+D452	Bid vol. 13
+D453	Bid vol. 14
+D454	Bid vol. 15
+D455	Bid vol. 16
+D456	Bid vol. 17
+D457	Bid vol. 18
+D458	Bid vol. 19
+D459	Bid vol. 20
+D460	Bid 11
+D461	Bid 12
+D462	Bid 13
+D463	Bid 14
+D464	Bid 15
+D465	Bid 16
+D466	Bid 17
+D467	Bid 18
+D468	Bid 19
+D469	Bid 20
+D470	Ask no. 11
+D471	Ask no. 12
+D472	Ask no. 13
+D473	Ask no. 14
+D474	Ask no. 15
+D475	Ask no. 16
+D476	Ask no. 17
+D477	Ask no. 18
+D478	Ask no. 19
+D479	Ask no. 20
+D480	Ask vol. 11
+D481	Ask vol. 12
+D482	Ask vol. 13
+D483	Ask vol. 14
+D484	Ask vol. 15
+D485	Ask vol. 16
+D486	Ask vol. 17
+D487	Ask vol. 18
+D488	Ask vol. 19
+D489	Ask vol. 20
+D490	Ask 11
+D491	Ask 12
+D492	Ask 13
+D493	Ask 14
+D494	Ask 15
+D495	Ask 16
+D496	Ask 17
+D497	Ask 18
+D498	Ask 19
+D499	Ask 20
+D500	Normalised Volatility
+D501	General Purpose price flag
+D502	Original Trade time (Trace) - ms since midnight
+D503	Off exchange T volume
+D504	Off Exchange T+1 volume
+D505	Bid/ASk Spread
+D506	General purpose instrument status flag
+D507	Indicative Final Settlement price
+D508	Order entry rejection field
+D509	Instrument state TCS
+D510	Halt date
+D511	Halt time
+D768	Bid, Time of last update inc seconds
+D769	Ask, Time of last update inc seconds
+D770	Last, Time of last update inc seconds
+D771	Today's close
+D772	Time of update to today's close inc seconds
+D773	Date of update to today's close inc seconds
+D774	Trade before main trading session
+D775	Time of trade before main trading session
+D776	Trade after main trading session
+D777	Time of trade after main trading session
+D778	Best bid time in seconds
+D779	Best ask time in seconds
+D781	Market Centre
+D782	Last update date of any realtime field
+D783	Last update time of any realtime field
+D784	Date of last trade
+D785	Reserved for internal snapper usage
+D787	Home Exchange Bid
+D788	Home Exchange Ask
+D789	Home Exchange Bid Size
+D790	Home Exchange Ask Size
+D791	Bid Date
+D792	Ask Date
+D793	Non Zero Bid
+D794	Non Zero Ask
+D795	Non Zero Home Bid
+D796	Non Zero Home Ask
+D797	Internal Snapper Market ID of last realtime Update
+D798	Internal Snapper use only
+D799	Yesterday's Close Date
+D800	1 month LME PDF report - stock quantity
+D801	2 month LME PDF report - stock quantity
+D802	3 month LME PDF report - stock quantity
+D803	4 month LME PDF report - stock quantity
+D804	5 month LME PDF report - stock quantity
+D805	6 month LME PDF report - stock quantity
+D806	7 month LME PDF report - stock quantity
+D807	8 month LME PDF report - stock quantity
+D808	9 month LME PDF report - stock quantity
+D809	10 month LME PDF report - stock quantity
+D810	11 month LME PDF report - stock quantity
+D811	12 month LME PDF report - stock quantity
+D812	13 month LME PDF report - stock quantity
+D813	14 month LME PDF report - stock quantity
+D814	15 month LME PDF report - stock quantity
+D815	16 month LME PDF report - stock quantity
+D816	17 month LME PDF report - stock quantity
+D817	18 month LME PDF report - stock quantity
+D818	19 month LME PDF report - stock quantity
+D819	20 month LME PDF report - stock quantity
+D820	21 month LME PDF report - stock quantity
+D821	22 month LME PDF report - stock quantity
+D822	23 month LME PDF report - stock quantity
+D823	24 month LME PDF report - stock quantity
+D824	25 month LME PDF report - stock quantity
+D825	26 month LME PDF report - stock quantity
+D826	27 month LME PDF report - stock quantity
+D827	28 month LME PDF report - stock quantity
+D828	29 month LME PDF report - stock quantity
+D829	30 month LME PDF report - stock quantity
+D830	31 month LME PDF report - stock quantity
+D831	32 month LME PDF report - stock quantity
+D832	33 month LME PDF report - stock quantity
+D833	34 month LME PDF report - stock quantity
+D834	35 month LME PDF report - stock quantity
+D835	36 month LME PDF report - stock quantity
+D836	37 month LME PDF report - stock quantity
+D837	38 month LME PDF report - stock quantity
+D838	39 month LME PDF report - stock quantity
+D839	40 month LME PDF report - stock quantity
+D840	41 month LME PDF report - stock quantity
+D841	42 month LME PDF report - stock quantity
+D842	43 month LME PDF report - stock quantity
+D843	44 month LME PDF report - stock quantity
+D844	45 month LME PDF report - stock quantity
+D845	46 month LME PDF report - stock quantity
+D846	47 month LME PDF report - stock quantity
+D847	48 month LME PDF report - stock quantity
+D848	LME CVS Report - Delta Space
+D849	Bid 1 Additional text
+D850	Bid 2 Additional text
+D851	Bid 3 Additional text
+D852	Bid 4 Additional text
+D853	Bid 5 Additional text
+D854	Bid 6 Additional text
+D855	Bid 7 Additional text
+D856	Bid 8 Additional text
+D857	Bid 9 Additional text
+D858	Bid 10 Additional text
+D859	Bid 11 Additional text
+D860	Bid 12 Additional text
+D861	Bid 13 Additional text
+D862	Bid 14 Additional text
+D863	Bid 15 Additional text
+D864	Bid 16 Additional text
+D865	Bid 17 Additional text
+D866	Bid 18 Additional text
+D867	Bid 19 Additional text
+D868	Bid 20 Additional text
+D869	Ask 1 Additional text
+D870	Ask 2 Additional text
+D871	Ask 3 Additional text
+D872	Ask 4 Additional text
+D873	Ask 5 Additional text
+D875	Ask 6 Additional text
+D876	Ask 7 Additional text
+D877	Ask 8 Additional text
+D878	Ask 9 Additional text
+D879	Ask 10 Additional text
+D880	Ask 12 Additional text
+D881	Ask 13 Additional text
+D882	Ask 14 Additional text
+D883	Ask 15 Additional text
+D884	Ask 16 Additional text
+D885	Ask 17 Additional text
+D886	Ask 18 Additional text
+D887	Ask 19 Additional text
+D888	Ask 20 Additional text
+D889	Implied Book - add/mod/del flag
+D890	Implied Book - 0=bid, 1=ask
+D891	Implied Book - Position
+D892	Implied Book - Price
+D893	Implied Book - Size
+D894	Implied Book - # of quotes at given price
+D895	Implied Book - market maker code
+D896	Implied Book - order book type
+D897	Implied Book - depth entry id (unique per symbol and side)
+D898	Implied Book - timestamp creation of depth entry (millisecs since midnight)
+D899	Implied Book - date creation of depth entry (julian format)
+D900	Implied Book - original order code
+D901	NAV open
+D902	NAV Close
+D903	NAV High
+D904	NAV Low
+D905	NAV Status (Internal snapper only)
+D906	NAV last update time
+D907	NAV Last update date
+D908	NAV previous close
+D909	MSTATS % Up
+D910	MSTATS % Down
+D911	MSTATS % Unchanged
+D912	Net Volume Up MSTATS
+D913	Net Volume Down MSTATS
+D914	Net Volume Unchanged MSTATS
+D915	Net Value Up MSTATS
+D916	Net Value Down MSTATS
+D917	Net Value Unchanged MSTATS
+D918	Tick Volume Up MSTATS
+D919	Tick Volume down MSTATS
+D920	Tick Volume Unchanged MSTATS
+D921	Tick Value Up MSTATS
+D922	Tick Value Down MSTATS
+D923	Tick Value Unchanged MSTATS
+D924	Ticks up MSTATS
+D925	Ticks Down MSTATS
+D926	Ticks Unchanged MSTATS
+D927	Top 10 Risers Volume MSTATS
+D928	Top 10 Fallers Volume MSTATS
+D929	Top 10 Risers Value MSTATS
+D930	Top 10 Fallers Value MSTATS
+D931	Top 10 Risers Ticks MSTATS
+D932	Top 10 Fallers Ticks MSTATS
+D933	Close Date
+D934	Pretrade Date
+D935	Posttrade Date
+D936	Average Spread
+D937	Total Spread Value
+D938	Average Spread Value
+D939	Number of Spread updates
+D940	RT of Bid in Seconds (EST) (MCR)
+D941	RT of Ask in Seconds (EST) (MCR)
+D942	RT of Last Trade in Seconds (EST) MCR)
+D943	RT of last update in Seconds (EST) (MCR)
+D944	Snapper original quote time
+D945	Total Relative spread value
+D946	Average relative spread value
+D947	Time of last close message - Snapper
+D948	Pre Trade Cumulative Volume
+D949	Post Trade Cumulative Volume
+D950	Post Trade net Change
+D951	Pre Trade net change
+D952	Time Received (GMT)
+D953	Date Received (GMT)
+D954	Instrument Trading Status (Closed, Pre-open, Open, Post-Trading)
+D955	Todays close price in close message
+D956	Time of last update to today's close in close message in seconds
+D957	Date of last update to today's close in close message
+D958	Date of Last non Zero Bid
+D959	Date of Last non Zero Ask
+D960	Time of Last non Zero Bid
+D961	Time of Last non Zero Ask
+D962	Time of last update to NAV
+D963	Date of last update to NAV
+D964	Julian Date of last Bid (EST) (MCR)
+D965	Julian Date of last Ask (EST) (MCR)
+D966	Julian Date of last Trade (EST) (MCR)
+D967	Total Spread while instrument is open
+D968	Average Spread While instrument is open
+D969	No of Spread update while instrument is open
+D970	Total Relative spread while instrument is open
+D971	Average spread while instrument is open
+D972	Time of last D140 Update (EST)
+D973	Date of last D140 update (EST)
+D974	Date of last time instrument traded
+D975	Adjusted volume
+D1800	Original Trade Identification Code
+D1801	Barrier Price
+D1802	Net Asset Value Date
+D1803	Original Broker Number`
+D1804	Original Clearer Number
+D1805	Indicative Net Asset Value
+D1806	Average Index Value
+D1807	Index Liquidation
+D1808	Index Values Down
+D1809	Index Values Unchanged
+D1810	Index Values Up
+D1811	Market Values Down
+D1812	Market Values Unchanged
+D1813	Market Values Up
+D1814	Turnover of Negotiation
+D1815	Total Expense Ration (TER) inc. Performance Fee in %
+D1816	TER exc. Performance Fee in %
+D1817	TER Calculation Date
+D1818	TER Description
+D1819	TER Portfolio Price
+D1820	Time Sync Pulse (hhmmssccc)
+D1821	Last Settlement Date (Original Value)
+D1822	Premium for the Call Option
+D1823	Premium for the Put Option
+D1824	Date of the LSE "UT" Trade, in Julian Format
+D1825	Floor indicator
+D1826	Redemption NAV
+D1827	Wrap price
+D1828	ELTR estimated long term return
+D1829	Accrued interest
+D1830	daily dividend adjustment indicator
+D1831	average life (days)
+D1832	subsidized 7 days yield
+D1833	30 days yield
+D1834	cash distribution type
+D1835	cash distribution
+D1836	non-qualified cash distribution
+D1837	qualified cash distribution
+D1838	cash tax-free distribution
+D1839	ordinary foreign tax credit
+D1840	qualified foreign tax credit
+D1841	long term capital gains
+D1842	unallocated distributions
+D1843	return of capital
+D1844	entry date
+D1845	payment date
+D1846	Record date
+D1847	Ex date
+D1848	Reinvest date
+D1849	Market price
+D1850	30 days yield date
+D1851	Type of order book refresh (P = periodic)
+D1852	Original message type
+D1853	SMF QQM (Quote Quality Metrics) average spread
+D1854	QQM average buy volume
+D1855	QQM average sell volume
+D1856	QQM average buy volume price
+D1857	QQM average sell volume price
+D1858	QQM spreads availability ratio
+D1859	QQM quotes availability ratio
+D1860	QQM last best bid price
+D1861	QQM last best ask price
+D1862	QQM last best bid volume
+D1863	QQM last best ask volume
+D1864	QQM time (or date) of source
+D1865	UTP BuyingPrice
+D1866	UTP SellingPrice
+D1867	UTP MoneyAmount
+D1868	pre market cumulative volume
+D1869	post market cumulative volume
+D1870	bid turnover
+D1871	ask turnover
+D1872	bid ask percentage
+D1873	put call ratio
+D1874	late reported trade price
+D1875	Delta
+D1876	Vega
+D1877	Duration
+D1878	ModDuration
+D1879	Convexity
+D1880	Time To Maturity
+D1881	Perfomance Value
+D1882	Previous close date
+D1883	Last auction price
+D1884	Last auction quantity
+D1885	Last auction time (ms since midnight)
+D1886	T Spread volume by Leg Breakdown
+D1887	T+1 Spread volume by Leg Breakdown
+D1888	Trade change/delete flag, 1=delete, 2=change
+D1889	Imbalance side ("B" - buy, "S" - sell)
+D1890	Imbalance volume
+D1891	TSX Calculated closing price
+D1892	Source of BATS enhanced data (C=Composite, B = BATS)
+D1893	corrected trade condition in a trade correction (for US only)
+D1894	Differential value (outright evaluation message)
+D1895	Realtime PE Ratio
+D1896	Trade Origin
+D1897	Halt Reason
+D1898	Publication Status
+D1899	Original Trade Type
+D1900	MSTATS Top 10 Risers by Price
+D1901	MSTATS Top 10 Fallers by Price
+D1902	MSTATS Top 10 Risers by % Price
+D1903	MSTATS Top 10 Fallers by % Price
+D1904	MSTATS Top 10 Stocks by volume traded
+D1905	Off book Trade count
+D1906	On book Trade count
+D1907	Nominal Price
+D1908	Energy component $/MWh
+D1909	congestion component $/MWh
+D1910	loss component $/MWh
+D1911	LMP $/MWh
+D1912	Bid Price - Post closing Auction
+D1913	Ask Price - Post closing Auction
+D1914	Limiting facility - ISO
+D1915	Contingency - ISO
+D1916	Constrain Costs - ISO
+D1917	Market Clearing Price ($/MWh)
+D1918	10 min spinning operating reserve
+D1919	10 min non-spinning operating reserve
+D1920	30 min operating reserve
+D1921	Actual tie flow
+D1922	Scheduled tie flow
+D1923	Shadow price
+D1924	Load
+D1925	Actual Flow
+D1926	Transfer limit
+D1927	Warning level
+D1928	Action
+D1929	Contingencies
+D1930	Wind Gen (MW)
+D1931	Area Control Error
+D1932	Ercot settlement point price
+D1933	Ercot demand 1st quarter
+D1934	Ercot demand 2nd quarter
+D1935	Ercot demand 3rd quarter
+D1936	Ercot demand 4th quarter
+D1937	underlying instrument type
+D1938	20 year bid
+D1939	20 year ask
+D1940	30 year bid
+D1941	30 year ask
+D1942	4 weeks bank discount
+D1943	4 weeks coupon equivalent
+D1944	13 weeks bank discount
+D1945	13 weeks coupon equivalent
+D1946	26 weeks bank discount
+D1947	26 weeks coupon equivalent
+D1948	52 weeks bank discount
+D1949	52 weeks coupon equivalent
+D1950	AM fixing Date
+D1951	PM Fixing Date
+D1952	Generation based market clearing price for regulation
+D1953	Generation based market clearing price for spinning reserve
+D1954	Generation based market clearing price for supplemental reserve
+D1955	Demand based market clearing price for regulation
+D1956	Demand based market clearing price for spinning reserve
+D1957	Demand based market clearing price for supplemental reserve
+D1958	Realtime Forward PE Ratio
+D1959	Static Range Perc Block
+D1960	Trading mode (100,101...)
+D1961	Return Year to date
+D1962	Return_24M
+D1963	Return_36M
+D1964	Return_60M
+D1965	IPL Hold Type: 'S' - IPL Hold Start, 'E' - IPL Hold End
+D1966	'Y' - IPL Upper bound violation (Bidding too high) 'N' - IPL Lower bound violation (Asking too low) N/A when IPLHoldType = 'E'
+D1967	Hold Duration in ms
+D1968	Realtime Market Capitalization
+D1969	Send To Time - Platts
+D1970	Send to Date - Platts
+D1971	Release Time for realtime data - Platts
+D1972	Release time for Platts Market data - Platts
+D1973	Perm Code - Platts
+D1974	Update Time - Platts
+D1975	Value Confidence - Platts
+D1976	Unspecified price - Platts
+D1977	Transaction Type - Platts
+D1978	Adjusted Close Price
+D1979	Calculated VWAP
+D1980	Aggressor side (B/S)
+D1981	Return_D1
+D1982	Return_MTD
+D1983	Return_1W
+D1984	Return_1M
+D1985	Return_2M
+D1986	Return_3M
+D1987	Return_6M
+D1988	Return_9M
+D1989	Return_12M
+D1990	Return_48M
+D1991	Return_72M
+D1992	Return_84M
+D1993	Return_96M
+D1994	Return_108M
+D1995	Return_120M
+D1996	Return_180M
+D1997	Return_240M
+D1998	Return_Inception
+D1999	Return_QTD
+D2003	Adjusted Historical Price change (internal use only)
+D2005	Subs Codes used (internal use only)
+D2006	New ValueType (internal use only)
+D2007	UnAdjusted Historical Price change (internal use only)
+D2021	Bid 21
+D2022	Bid 22
+D2023	Bid 23
+D2024	Bid 24
+D2025	Bid 25
+D2026	Bid 26
+D2027	Bid 27
+D2028	Bid 28
+D2029	Bid 29
+D2030	Bid 30
+D2031	Bid Size 21
+D2032	Bid Size 22
+D2033	Bid Size 23
+D2034	Bid Size 24
+D2035	Bid Size 25
+D2036	Bid Size 26
+D2037	Bid Size 27
+D2038	Bid Size 28
+D2039	Bid Size 29
+D2040	Bid Size 30
+D2041	Bid no 21
+D2042	Bid no 22
+D2043	Bid no 23
+D2044	Bid no 24
+D2045	Bid no 25
+D2046	Bid no 26
+D2047	Bid no 27
+D2048	Bid no 28
+D2049	Bid no 29
+D2050	Bid no 30
+D2051	Ask 21
+D2052	Ask 22
+D2053	Ask 23
+D2054	Ask 24
+D2055	Ask 25
+D2056	Ask 26
+D2057	Ask 27
+D2058	Ask 28
+D2059	Ask 29
+D2060	Ask 30
+D2061	Ask size 21
+D2062	Ask size 22
+D2063	Ask size 23
+D2064	Ask size 24
+D2065	Ask size 25
+D2066	Ask size 26
+D2067	Ask size 27
+D2068	Ask size 28
+D2069	Ask size 29
+D2070	Ask size 30
+D2071	Ask no 21
+D2072	Ask no 22
+D2073	Ask no 23
+D2074	Ask no 24
+D2075	Ask no 25
+D2076	Ask no 26
+D2077	Ask no 27
+D2078	Ask no 28
+D2079	Ask no 29
+D2080	Ask no 23
+D2081	Bid 21 Additional Text
+D2082	Bid 22 Additional Text
+D2083	Bid 23 Additional Text
+D2084	Bid 24 Additional Text
+D2085	Bid 25 Additional Text
+D2086	Bid 26 Additional Text
+D2087	Bid 27 Additional Text
+D2088	Bid 28 Additional Text
+D2089	Bid 29 Additional Text
+D2090	Bid 30 Additional Text
+D2091	Ask 21 Additional Text
+D2092	Ask 22 Additional Text
+D2093	Ask 23 Additional Text
+D2094	Ask 24 Additional Text
+D2095	Ask 25 Additional Text
+D2096	Ask 26 Additional Text
+D2097	Ask 27 Additional Text
+D2098	Ask 28 Additional Text
+D2099	Ask 29 Additional Text
+D2100	Ask 30 Additional Text
+D2101	Trailing Return YTD
+D2102	Trailing Load Adjusted Return YTD
+D2103	Trailing SEC Pre Liquidation Return YTD
+D2104	Trailing SEC Post Liquidation Return YTD
+D2105	Trailing Market Return YTD
+D2106	Trailing Income Return YTD
+D2107	Trailing Gross Return YTD
+D2108	Trailing Market SEC Pre Liquidation Return YTD
+D2109	Trailing Market SEC Post Liquidation Return YTD
+D2110	Trailing Price Return YTD
+D2111	Quarter End Trailing Return YTD
+D2112	Quarter End Trailing Load Adjusted Return YTD
+D2113	Quarter End Trailing SEC Pre Liquidation Return YTD
+D2114	Quarter End Trailing SEC Post Liquidation Return YTD
+D2115	Quarter End Trailing Market Return YTD
+D2116	Quarter End Trailing Gross Return YTD
+D2117	Collateral of the buyer/Basic size of the collateral to be posted on one open position of the option writer (Russian rubles)
+D2118	Collateral of the seller/Basic size of collateral to be posted on one unsecured position of the option writer (Russian rubles)
+D2119	Basic size of Collateral requested in order to buy futures style Option
+D2120	Quotation Data, yyyy-mm-dd
+D2121	Correction_Flag
+D2122	Reference_Date, yyyy-mm-dd
+D2123	Reference_Time, hh:mm:ss
+D2124	MS Performance ID
+D2125	MS EarningYield
+D2126	MS PERatio
+D2127	MS PBRatio
+D2128	MS DividendYield
+D2129	MS ForwardDividendYield
+D2130	MS ForwardEarningYield
+D2131	MS Total Return 1 day
+D2132	MS MarketCap
+D2133	MS Market Value
+D2134	MS PE Growth Ratio
+D2135	MS Price to EPS
+D2136	MS 3 year Beta
+D2137	MS 5 year Beta
+D2138	18 Month Bid
+D2139	18 Month Ask
+D2140	Gross 7 day Yield direction
+D2141	Subsidized 7 day yield direction
+D2142	30 day yield direction
+D2143	Annualized yield direction
+D2144	Estimated long term return direction
+D2145	Return_MI (Stub Month)
+D2146	Return_QI (Stub Quarter)
+D2147	Return_2W
+D2148	Return_4W
+D2149	Return_YI
+D2150	Top 10 risers by volume (extended version - Web services only
+D2151	Top 10 fallers by volume (extended version - Web services only)
+D2152	Top 10 risers by value (extended version - Web services only
+D2153	Top 10 fallers by value (extended version - Web services only)
+D2154	Top 10 risers by ticks (extended version - Web services only
+D2155	Top 10 fallers by ticks (extended version - Web services only)
+D2156	Top 10 risers by price (extended version - Web services only
+D2157	Top 10 fallers by price (extended version - Web services only)
+D2158	Top 10 risers by price % (extended version - Web services only
+D2159	Top 10 fallers by price % (extended version - Web services only)
+D2160	Top ten volume (Extended version Web services only)
+D2161	Count of risers
+D2162	Count of fallers
+D2163	Count of unchanged
+D2164	Realtime Coupon Value
+D2165	OTC Security Code
+D2166	Theoretical Limit
+D2167	Perc Threshold Normal Trade
+D2168	Perc Threshold Cross Trade
+D2169	Maximum Normal Shares Per Daily Avg Shares 30 Day Ratio
+D2170	Maximum Cross Shares Per Daily Avg Shares 30 Day Ratio
+D2171	Normal Shares Per Outstanding Shares Ratio
+D2172	Cross Shares Per Outstanding Shares Ratio
+D2173	Daily Avg Shares 30 Day
+D2174	Stream ID
+D2175	Calculated return price 1W
+D2176	Calculated return price 1M
+D2177	Calculated return price 3M
+D2178	Calculated return price 6M
+D2179	Calculated return price 1Y
+D2180	Calculated return price YTD
+D2181	Source of realtime message
+D2182	Realtime Tangible book value per share
+D2183	Realtime Sales per share
+D2184	Realtime Operating Revenue Per Share
+D2185	Realtime Free Cash flow per share
+D2186	Realtime Cash flow per share
+D2187	Realtime Book value per share
+D2188	Original Sequence number (string)
+D2189	Price to book
+D2190	Price to Tangible Book
+D2191	Price to total revenue
+D2192	Price to Operating revenue
+D2193	Price to free cash flow
+D2194	Earnings yield
+D2195	Book Value Yield
+D2196	Realtime Sales Yield
+D2197	Cash Flow Yield
+D2198	Free cash flow yield
+D2199	Realtime Dividend yield
+D2200	Forward Earnings Yield
+D2201	Enterprise Value
+D2202	Price to Cash Flow
+D2203	Forward Dividend Yield
+D2204	2 Days bid
+D2205	2 Days ask
+D2206	Percentage Change 1 Month
+D2207	Percentage Change 12 Month
+D2208	Average Percentage Change Last 12 Months
+D2209	LULD BBO Indicator (A,B,C)
+D2210	LULD National BBO Indicator (A..I)
+D2211	Retail Interest Indicator (A,B,C)
+D2212	LULD Price Band Indicator (A..F)
+D2213	LULD Price Band Time (Format HHMMSSCCC)
+D2214	LULD Up Price
+D2215	LULD Down Price
+D2216	FINRA ADF MPID Bid
+D2217	FINRA ADF MPID Ask
+D2218	Tangible Book Value
+D2219	Continuous Trading Volume (MWh)
+D2220	Fixing Volume (MWh)
+D2221	Extra Bidding Volume (MWh)
+D2222	poDeeK Peak Volume (MWh)
+D2223	poDeeK BaseVolume (MWh)
+D2224	REK GWP Trading Volume (MWh)
+D2225	Continuous Trading Standard Volume (MWh)
+D2226	Continuous Trading Custom Volume (MWh)
+D2227	Tenders Volume (MWh)
+D2228	OTC Transaction Volume (MWh)
+D2229	Total Net Asset Value
+D2230	Book Condition Code
+D2231	Currency of Annual Filing
+D2232	Indicates if a Eurex product is in the state Fast Market
+D2233	Last Eligible Trade Date (YYYYMMDD)
+D2234	Identifier for a Trading Session
+D2235	Defines if a trade was made during an auction or not and informs about the auction phase
+D2236	Type of Instrument
+D2237	MS Estimated EPS
+D2238	MS Forward PE
+D2239	Original exchange ID
+D2240	RMF bid 1
+D2241	RMF bid 2
+D2242	RMF bid 3
+D2243	RMF bid 4
+D2244	RMF bid 5
+D2245	RMF bid 6
+D2246	RMF bid 7
+D2247	RMF bid 8
+D2248	RMF bid 9
+D2249	RMF bid 10
+D2250	RMF bid cumulative
+D2251	RMF bid volume 1
+D2252	RMF bid volume 2
+D2253	RMF bid volume 3
+D2254	RMF bid volume 4
+D2255	RMF bid volume 5
+D2256	RMF bid volume 6
+D2257	RMF bid volume 7
+D2258	RMF bid volume 8
+D2259	RMF bid volume 9
+D2260	RMF bid volume 10
+D2261	RMF bid volume cumulative
+D2262	RMF bid number 1
+D2263	RMF bid number 2
+D2264	RMF bid number 3
+D2265	RMF bid number 4
+D2266	RMF bid number 5
+D2267	RMF bid number 6
+D2268	RMF bid number 7
+D2269	RMF bid number 8
+D2270	RMF bid number 9
+D2271	RMF bid number 10
+D2272	RMF bid number cumulative
+D2273	RMF ask 1
+D2274	RMF ask 2
+D2275	RMF ask 3
+D2276	RMF ask 4
+D2277	RMF ask 5
+D2278	RMF ask 6
+D2279	RMF ask 7
+D2280	RMF ask 8
+D2281	RMF ask 9
+D2282	RMF ask 10
+D2283	RMF ask cumulative 
+D2284	RMF ask volume 1
+D2285	RMF ask volume 2
+D2286	RMF ask volume 3
+D2287	RMF ask volume 4
+D2288	RMF ask volume 5
+D2289	RMF ask volume 6
+D2290	RMF ask volume 7
+D2291	RMF ask volume 8 
+D2292	RMF ask volume 9
+D2293	RMF ask volume 10
+D2294	RMF ask volume cumulative
+D2295	RMF ask number 1
+D2296	RMF ask number 2
+D2297	RMF ask number 3
+D2298	RMF ask number 4
+D2299	RMF ask number 5
+D2300	RMF ask number 6
+D2301	RMF ask number 7
+D2302	RMF ask volume 8
+D2303	RMF ask volume 9
+D2304	RMF ask volume 10
+D2305	RMF ask number cumulative
+D2306	Duration to Call (DTC)
+D2307	WA Settlement Price
+D2308	Compound Yield Close Price
+D2309	Compound Yield QA Price
+D2310	Complementary Identification Code
+D2311	Economic Activities Classification in the EU
+D2312	15 month bid
+D2313	15 month ask
+D2314	18 month bid
+D2315	18 month ask
+D2316	21 month bid
+D2317	21 month ask
+D2318	Bid forward points
+D2319	Ask forward points
+D2320	Bid forward size
+D2321	Ask forward size
+D2322	Share Class A Market cap
+D2323	MS PS Ratio
+D2324	Advancers to Decliners (number of symbols up)/(number of symbols down)
+D2325	Volume traded on an exchange
+D2326	52 week rolling total volume
+D2327	Not Used
+D2328	BME Last Trade code
+D2329	BME Upper Limit
+D2330	BME Lower Limit
+D2331	BME Price Delta
+D2332	Number of Contracts
+D2333	Cumulative nominal volume
+D2334	Cumulative traded volume
+D2335	high yield direction
+D2336	last yield direction
+D2337	low yield direction
+D2338	yield direction
+D2339	Change Direction
+D2340	original message sequence number in corrections/cancellations
+D2341	reported factor in trade
+D2342	Newly Opened Sell side
+D2343	Newly Opened Buy Side
+D2344	Re-purchased Quantity
+D2345	Assigned Quantity
+D2346	Open Int Sell Side
+D2347	Open Int Buy Side
+D2348	Resold Quantity
+D2349	Exercise Quantity
+D2350	Long Short Diff
+D2351	BMV Folio
+D2352	Index Market Cap
+D2353	Prev Day Open
+D2354	Prev Day High
+D2355	Prev Day Low
+D2356	Prev Day Volume
+D2357	30 Days Call bid
+D2358	30 Days Call ask
+D2359	Reg SHO Action 
+D2360	Interest flag
+D2361	Market wide circuit breaker level 1
+D2362	Market wide circuit breaker level 2
+D2363	Market wide circuit breaker level 3
+D2364	Breached MCBW level (1, 2, 3)
+D2365	1 = indicates that the size is > 2 billion in this message
+D2366	Exchange Holidays
+D2367	Exchange Time Zone
+D2368	Official exchange Opening Time
+D2369	Official exchange Closing Time
+D2370	Exchange Weekend days
+D2371	Exchange Special Trading Days
+D2372	Exchange Half Day closing Days
+D2373	Exchange Name for Exchnage info
+D2374	RT field for Rolling 52 week high (parallel to D695)
+D2375	RT field for Rolling 52 week low (parallel to D697)
+D2376	RT field for previous days Rolling 52 week high
+D2377	RT field for previous days Rolling 52 week low
+D2378	RT field for Calendar 52 week high (parallel to D699)
+D2379	RT field for Calendar 52 week low (parallel to D701)
+D2380	RT field for previous days Calendar 52 week high
+D2381	RT field for previous days Calendar 52 week low
+D2382	RT field Rolling 52 week high date (dd.mm.yyyy)
+D2383	RT field for Rolling 52 week low date (dd.mm.yyyy)
+D2384	RT field for Calendar 52 week high date (dd.mm.yyyy) 
+D2385	RT field for Calendar 52 week low date (dd.mm.yyyy)
+D2386	RT field for previous days Rolling 52 week high date (dd.mm.yyyy)
+D2387	RT field for previous days Rolling 52 week low date (dd.mm.yyyy) 
+D2388	RT field for previous days Calendar 52 week high date (mm.dd.yyyy)
+D2389	RT field for previous days Calendar 52 week low date (dd.mm.yyyy)
+D2390	Arrival rate indicator (number) for buy orders, time triggered.
+D2391	Arrival rate indicator (number) for sell orders, time triggered
+D2392	Arrival rate indicator (number) for orders, time triggered ARR_NO_BUY + ARR_NO_SELL
+D2393	Arrival rate indicator (quantity) for buy orders, time triggered
+D2394	Arrival rate indicator (quantity) for sell orders, time triggered
+D2395	Arrival rate indicator (quantity) for orders, time triggered    ARR_QTY_BUY + ARR_QTY_SELL
+D2396	Fill or kill order arrival rate indicator (number) for orders, time triggered
+D2397	Immediate or cancel order arrival rate indicator (number) for orders, time triggered
+D2398	Market order arrival rate indicator (quantity) for buy orders, time triggered
+D2399	Market order arrival rate indicator (quantity) for sell orders, time triggered
+D2400	Market order arrival rate indicator (quantity) for orders, time triggered       ARR_QTY_M_BUY + 'ARR_QTY_M_SELL
+D2401	Average quantity of buy orders, time triggered
+D2402	Average quantity of sell orders, time triggered
+D2403	Average quantity of incoming orders, time triggered     AVG_BUY_QTY + AVG_SELL_QTY
+D2404	Buyer/seller relation indicator, trade triggered
+D2405	Cancel rate indicator (number), time triggered  CR_NO_BUY + CR_NO_SELL
+D2406	Cancel rate indicator (number) for buy orders, time triggered
+D2407	Cancel rate indicator (number) for sell orders, time triggered
+D2408	Cancel rate order types indicator (number) for limit orders, time triggered     CR_NO_L_BUY + CR_NO_L_SELL
+D2409	Cancel rate order types indicator (number) for market orders, time triggered    CR_NO_M_BUY + CR_NO_M_SELL
+D2410	Cancel rate order types indicator (number) for quotes, time triggered   CR_NO_Q_BUY + CR_NO_Q_SELL
+D2411	Cancel rate order types indicator (number) for stop orders, time triggered      CR_NO_S_BUY + CR_NO_S_SELL
+D2412	Cancel rate Order types indicator for buy limit orders, time triggered
+D2413	Cancel rate Order types indicator for limit sell orders, time triggered
+D2414	Cancel rate Order types indicator for market buy orders, time triggered
+D2415	Cancel rate Order types indicator for market sell orders, time triggered
+D2416	Cancel rate Order types indicator for buy quotes, time triggered
+D2417	Cancel rate Order types indicator for sell quotes, time triggered
+D2418	Cancel rate Order types indicator for buy stop orders, time triggered
+D2419	Cancel rate Order types indicator for sell stop orders, time triggered
+D2420	Duration indicator: average age (in nanoseconds) of orders of the passive side, trade triggered
+D2421	Number of buy triggered trades
+D2422	Number of sell triggered trades
+D2423	Quantity of buy  triggered trades
+D2424	Quantity of sell triggered trades
+D2425	TICK (DAX, MDAX, SDAX, TecDAX)
+D2426	Volatility of buy order quantities, time triggered
+D2427	Volatility of sell order quantities, time triggered
+D2428	Volatility of incoming order quantities, time triggered VOLA_BUY_QTY + VOLA_SELL_QTY
+D2429	VWAP of agent trades
+D2430	VWAP of buy triggered trades
+D2431	VWAP of sell triggered trades
+D2432	Flag to indicate that additional Fund or Equity Data is availble
+D2433	Number of short-sell shares traded for a security
+D2434	Current short-sell turnover for a security
+D2435	Date for the last bid update
+D2436	Time for the last bid update
+D2437	Date for the last ask update
+D2438	Time for the last ask update
+D2439	Greeks - Gamma
+D2440	Greeks - Rho
+D2441	Greeks - Theta
+D2442	Unadjusted open interest
+D2443	Delivery begin date time (yyyy.mm.dd hh:mm:ss.mmm)
+D2444	Delivery end date time (yyyy.mm.dd hh:mm:ss.mmm)
+D2445	Regulation Service Down (REGDN)
+D2446	Regulation Service Up (REGUP)
+D2447	Power Forcast
+D2448	Spinning Reserve (SPIN)
+D2449	Supplement Reserve (SUPP)
+D2450	Real time calculation of the VWAP based on auto matched trades during a limited time interval
+D2451	The closing VWAP based on auto matched trades during a limited time interval
+D2452	Average price for Fixed Income trades only
+D2453	The Benchmark Indicator
+D2454	The Crossing Trade Indicator
+D2455	The Ex/Cum Dividend Indicator
+D2456	Market Mechanism
+D2457	The Modification Indicator
+D2458	The Negotiated Transaction Indicator
+D2459	The Publication Mode
+D2460	The Transaction Category
+D2461	Trading Mode
+D2462	Settlement ID
+D2463	Previous Open Interest
+D2464	Previous Delta
+D2465	Settlement Group
+D2466	Action Day
+D2467	Previous Day Close
+D2468	Trade execution processing time
+D2469	Removal time of VI (Volatility Interruption)
+D2470	VI Application Category Code.1=start, 2=end
+D2471	VI Type Code, 1=static, 2=dynamic
+D2472	Base Price to trigger VI
+D2473	VI triggering price
+D2474	Disperate Ratio
+D2475	Dirty price
+D2476	Trading value in system currency
+D2477	Trading value in clearing currency
+D2478	Trading value in trading currency
+D2479	Today symbol-market volume in clearing currency
+D2480	Today symbol-market volume in system currency
+D2481	Number of days that may elapse before delivery of the stock
+D2482	Market participant identification
+D2483	Market participant location
+D2484	Market participant status
+D2485	Market participant quote condition
+D2486	Bid/offer wanted indicator
+D2487	Unsolicited indicator
+D2488	Inside quote condition
+D2489	LMP Greenhouse Gas $/MWh
+D2490	Imbalance price
+D2491	Prior implied volatility
+D2492	Price delta
+D2493	OTCBB type (I, K, L)
+D2494	Northbound Daily Quota Balance in Renminbi for the Hong Kong CSCSHQ index
+D2495	UTP RFS identifier
+D2496	UTP RFS Volume
+D2497	UTP RFS Side
+D2498	passive broker number
+D2499	contra party type
+D2500	reporting party type
+D2501	Ex-Post congestion component $/MWh
+D2502	Ex- Post loss component $/MWh
+D2503	Ex- Post LMP $/MWh
+D2504	Delivery Type (C= Cash, P= Physical)
+D2505	Session last price
+D2506	Session trade count
+D2507	Share profit
+D2508	Share profit in percentage 
+D2509	Share profit two
+D2510	Share profit two in percentage
+D2511	Interim profit
+D2512	Interim profit in percentage
+D2513	Real estate profit
+D2514	Real estate profit in percentage
+D2515	Income per share
+D2516	Income per share in percentage
+D2517	Last ADDI date
+D2518	Last ADDI value
+D2519	Accrued income
+D2520	Accrued EU interest Swiss paying agent
+D2521	Performance in percentage, year to date
+D2522	Performance in percentage, week to date
+D2523	Last distribution date
+D2524	Last distribution currency code
+D2525	Last distribution gross income Swiss residents
+D2526	Last distribution capital gains Swiss residents
+D2527	Last distribution gross income foreign residents
+D2528	Last distribution capital gains foreign resident
+D2529	Last distribution interest EU withholding tax Swiss paying agent
+D2530	Last distribution interest EU withholding tax foreign paying agent
+D2531	Last split date
+D2532	Last split factor
+D2533	Last change currency date
+D2534	Last change currency old currency
+D2535	Fund IOPV
+D2536	Previous close IOPV
+D2537	The official EOD release time of the exchange (local time)
+D2538	Textual name/description of the exchange
+D2539	The time of the last Close message for any instrument on the exchange (local time)
+D2540	The name of the time zone of the exchange as used by Windows 
+D2541	Last change currency and new currency
+D2542	Accrued EU interest with foreign paying agent
+D2543	Settlement type
+D2544	Implied bid 1
+D2545	Implied bid 2
+D2546	Implied bid 3
+D2547	Implied bid 4
+D2548	Implied bid 5
+D2549	Implied bid size 1
+D2550	Implied bid size 2
+D2551	Implied bid size 3
+D2552	Implied bid size 4
+D2553	Implied bid size 5
+D2554	Implied bid no. 1
+D2555	Implied bid no. 2
+D2556	Implied bid no. 3
+D2557	Implied bid no. 4
+D2558	Implied bid no. 5
+D2559	Implied bid text 1
+D2560	Implied bid text 2
+D2561	Implied bid text 3
+D2562	Implied bid text 4
+D2563	Implied bid text 5
+D2564	Implied ask 1
+D2565	Implied ask 2
+D2566	Implied ask 3
+D2567	Implied ask 4
+D2568	Implied ask 5
+D2569	Implied ask size 1
+D2570	Implied ask size 2
+D2571	Implied ask size 3
+D2572	Implied ask size 4
+D2573	Implied ask size 5
+D2574	Implied ask no. 1
+D2575	Implied ask no. 2
+D2576	Implied ask no. 3
+D2577	Implied ask no. 4
+D2578	Implied ask no. 5
+D2579	Implied ask text 1
+D2580	Implied ask text 2
+D2581	Implied ask text 3
+D2582	Implied ask text 4
+D2583	Implied ask text 5
+D2584	Bid yield 1
+D2585	Bid yield 2
+D2586	Bid yield 3
+D2587	Bid yield 4
+D2588	Bid yield 5
+D2589	Bid yield 6
+D2590	Bid yield 7
+D2591	Bid yield 8
+D2592	Bid yield 9
+D2593	Bid yield 10
+D2594	Bid yield 11
+D2595	Bid yield 12
+D2596	Bid yield 13
+D2597	Bid yield 14
+D2598	Bid yield 15
+D2599	Bid yield 16
+D2600	Bid yield 17
+D2601	Bid yield 18
+D2602	Bid yield 19
+D2603	Bid yield 20
+D2604	Ask yield 1
+D2605	Ask yield 2
+D2606	Ask yield 3
+D2607	Ask yield 4
+D2608	Ask yield 5
+D2609	Ask yield 6
+D2610	Ask yield 7
+D2611	Ask yield 8
+D2612	Ask yield 9
+D2613	Ask yield 10
+D2614	Ask yield 11
+D2615	Ask yield 12
+D2616	Ask yield 13
+D2617	Ask yield 14
+D2618	Ask yield 15
+D2619	Ask yield 16
+D2620	Ask yield 17
+D2621	Ask yield 18
+D2622	Ask yield 19
+D2623	Ask yield 20
+D2624	Capital adjustment indicator
+D2625	Market order interruption indicator
+D2626	Volatility interruption indicator
+D2627	XEBS exchange segment
+D2628	Premium value (Proxy bid = 100)
+D2629	Discount value (Proxy ask = 100)
+D2630	Sent by ExchangeInfo at start/end of daily data transmission (Values = Start/End)
+D2631	Delete historical prices for date DDMMYYYY
+D2632	Volume type
+D2633	Expected Opening Price type
+D2634	Legal Market/Not legal market
+D2635	Underlying price
+D2636	Parity price
+D2637	Trading period information for implied (VBBO) feed
+D2638	Short selling regulation flag
+D2639	Direct yield
+D2640	Final yield
+D2641	Current session VWAP
+D2642	All day VWAP
+D2643	Ask quantity market order
+D2644	Bid quantity market order
+D2645	Bid time microseconds
+D2646	Ask time microseconds
+D2647	High time
+D2648	Low time
+D2649	Open time
+D2650	Last time microseconds
+D2651	Yearly reference 2
+D2652	Public Information Total Page Sequence Index
+D2653	Public Information per Page ISIN
+D2654	Public information date given in YYYYMMDD format
+D2655	Announcement Market Category (1 = KOSPI, 2 = KODAQ, 3 = Futures, 4 = Bond, 5 = Market Oversight,  6 = KONEX)
+D2656	KOSCOM type name
+D2657	Process (1 = Normal,  2 = Revision,  3 = Deleted)
+D2658	Reason
+D2659	Korean and English category (1 = Korean,  2 = English)
+D2660	Announcement title in text format 
+D2661	Announcement detail in HTML format
+D2662	Listing status ( Y = Listed, N = Not listed)
+D2663	Announcement contents listed status ( Y = Symbol, N = Announcements) 
+D2664	12-digit Security Code Number
+D2665	Available order quantity. Unit: share (only positive number) 
+D2666	Data type (01 = order available quantity (real-time), 07 = potential available order quantity)
+D2667	Previous NAV
+D2668	During market final market NAV
+D2669	Investor type code
+D2670	Sell side arbitrage volume
+D2671	Sell side arbitrage value
+D2672	Sell side non arbitrage volume
+D2673	Sell side non arbitrage value
+D2674	Buy side arbitrage volume
+D2675	Buy side arbitrage value
+D2676	Buy side non arbitrage volume
+D2677	Buy side non arbitrage value
+D2678	REPO Price Display
+D2679	REPO trading volume type (Volume Unit = 1,000KRW)
+D2680	REPO trading turnover (Unit = KRW)
+D2681	Ask REPO Type Code
+D2682	Ask REPO Term
+D2683	Bid REPO Type Code
+D2684	Bid REPO Term
+D2685	REPO Price Display (Opening price)
+D2686	REPO Price Display (High price)
+D2687	REPO Price Display (Low price)
+D2688	REPO Price Display (Category opening price)
+D2689	REPO Price Display (Category high price)
+D2690	REPO Price Display (Category low price)
+D2691	Accumulative trading volume (Volume Unit = 1,000KRW)
+D2692	Accumulative trading value (Unit = KRW)
+D2693	Accumulative type trading volume (Volume Unit = 1,000KRW) 
+D2694	Accumulative type trading value (Unit = KRW)
+D2695	Ask total remaining quantity (volume unit = 1,000KRW)
+D2696	Bid total remaining quantity (volume unit = 1,000KRW)
+D2697	Ask Level 1 quote remaining quantity 
+D2698	Ask Level 2 quote remaining quantity
+D2699	Ask Level 3 quote remaining quantity
+D2700	Ask Level 4 quote remaining quantity
+D2701	Ask Level 5 quote remaining quantity
+D2702	Bid Level 1 quote remaining quantity
+D2703	Bid Level 2 quote remaining quantity
+D2704	Bid Level 3 quote remaining quantity
+D2705	Bid Level 4 quote remaining quantity
+D2706	Bid Level 5 quote remaining quantity
+D2707	Ask Level 1 quote trading amount 
+D2708	Ask Level 2 quote trading amount
+D2709	Ask Level 3 quote trading amount
+D2710	Ask Level 4 quote trading amount
+D2711	Ask Level 5 quote trading amount
+D2712	Ask per type quote total remaining quantity 
+D2713	Bid per type quote total remaining quantity
+D2714	Designated bid  level1 quote price
+D2715	Designated bid  level1 REPO quote remaining quantity
+D2716	Designated bid  level1 quote issue code ISIN
+D2717	Designated bid  level 2 quote price
+D2718	Designated bid  level 2 REPO quote remaining quantity
+D2719	Designated bid  level 2 quote issue code ISIN
+D2720	Designated bid  level 3 quote price
+D2721	Designated bid  level 3 REPO quote remaining quantity
+D2722	Designated bid  level 3 quote issue code ISIN
+D2723	Designated bid  level 4 quote price
+D2724	Designated bid  level 4  REPO quote remaining quantity
+D2725	Designated bid  level 4 quote issue code ISIN
+D2726	Designated bid  level 5 quote price
+D2727	Designated bid  level 5 REPO quote remaining quantity
+D2728	Designated bid  level 5 quote issue code ISIN
+D2729	Designated bid  level 6 quote price
+D2730	Designated bid  level 6 REPO quote remaining quantity
+D2731	Designated bid  level 6 quote issue code ISIN
+D2732	Designated bid  level 7 quote price
+D2733	Designated bid  level 7 REPO quote remaining quantity
+D2734	Designated bid  level 7 quote issue code ISIN
+D2735	Designated bid  level 8 quote price
+D2736	Designated bid  level 8 REPO quote remaining quantity
+D2737	Designated bid  level 8 quote issue code ISIN
+D2738	Designated bid  level 9 quote price
+D2739	Designated bid  level 9 REPO quote remaining quantity
+D2740	Designated bid  level 9 quote issue code ISIN
+D2741	Designated bid  level 10 quote price
+D2742	Designated bid  level 10 REPO quote remaining quantity
+D2743	Designated bid  level 10 quote issue code ISIN
+D2744	Total bid  level 1 quote price
+D2745	Total bid  level 1 quote remaining quantity
+D2746	Bid level 1 per type GC allowance
+D2747	Total bid  level 2 quote price
+D2748	Total bid  level 2 quote remaining quantity
+D2749	Bid level 2 per type GC allowance
+D2750	Total bid  level 3 quote price
+D2751	Total bid  level 3 quote remaining quantity
+D2752	Bid level 3 per type GC allowance
+D2753	Total bid  level 4 quote price
+D2754	Total bid  level 4 quote remaining quantity
+D2755	Bid level 4 per type GC allowance
+D2756	Total bid  level 5 quote price
+D2757	Total bid  level 5 quote remaining quantity
+D2758	Bid level 5 per type GC allowance
+D2759	Ask per type level 1 quote price
+D2760	Ask per type level 1 quote total remaining quantity
+D2761	Ask per type level 2 quote price
+D2762	Ask per type level 2 quote total remaining quantity
+D2763	Ask per type level 3 quote price
+D2764	Ask per type level 3 quote total remaining quantity
+D2765	Ask per type level 4 quote price
+D2766	Ask per type level 4 quote total remaining quantity
+D2767	Ask per type level 5 quote price
+D2768	Ask per type level 5 quote total remaining quantity
+D2769	Bid per type level 1 quote price
+D2770	Bid per type level 1 quote total remaining quantity
+D2771	Bid per type level 2 quote price
+D2772	Bid per type level 2 quote total remaining quantity
+D2773	Bid per type level 3 quote price
+D2774	Bid per type level 3 quote total remaining quantity
+D2775	Bid per type level 4 quote price
+D2776	Bid per type level 4 quote total remaining quantity
+D2777	Bid per type level 5 quote price
+D2778	Bid per type level 5 quote total remaining quantity
+D2779	Ask per type level 1 quote trading amount
+D2780	Ask per type level 2 quote trading amount
+D2781	Ask per type level 3 quote trading amount
+D2782	Ask per type level 4 quote trading amount
+D2783	Ask per type level 5 quote trading amount
+D2784	Designated best bid quote price
+D2785	Net bid per type quote total remaining quantity
+D2786	Random ending applied category code
+D2787	Quantity allocation start and end code (1= Start of Allocation, 2= End of Allocation)
+D2788	Quantity allocation type code (1 = Upper limit (bid), 2 = Lower limit (Bid), 3 = Upper limit (Ask), 4 = Lower limit (Ask)
+D2789	Trade availability information per term (minutes since midnight)
+D2790	Trade availability information per term (1,2,3,4,7,14,21,30,60,90-day)
+D2791	Basic exchange rate disclosure (890 = Disclosure of basic exchange rate applied to settlement, 891 = Change in basic exchange rate applied to settlement)
+D2792	Disclosure Time (minutes since midnight)
+D2793	Applied Exchange rate
+D2794	LongString version of D2366
+D2795	T Session Outright Traded Volume
+D2796	Index Arbitrage Sell Order Remaining volume
+D2797	Index Arbitrage Buy Order Remaining volume
+D2798	Non Arbitrage Sell Order Remaining volume
+D2799	Non Arbitrage Buy Order Remaining volume
+D2800	Index Arbitrage Sell Order volume
+D2801	Index Arbitrage Buy Order volume
+D2802	Non Arbitrage Sell Order volume
+D2803	Non Arbitrage Buy Order volume
+D2804	Index Arbitrage Sell Order Remaining volume (pre-disclosed)
+D2805	Index Arbitrage Buy Order Remaining volume (pre-disclosed)
+D2806	Non Arbitrage Sell Order Remaining volume (pre-disclosed)
+D2807	Non Arbitrage Buy Order Remaining volume (pre-disclosed)
+D2808	Index Arbitrage Sell Order Remaining volume (post-disclosed)
+D2809	Index Arbitrage Buy Order Remaining volume (post-disclosed)
+D2810	Non Arbitrage Sell Order Remaining volume (post-disclosed)
+D2811	Non Arbitrage Buy Order Remaining volume (post-disclosed)
+D2812	Arbitrage Ask Trust Best Quote Volume
+D2813	Arbitrage Ask Proprietary Best Quote Volume
+D2814	Arbitrage Bid Trust Best Quote Volume
+D2815	Arbitrage Bid Proprietary Best Quote Volume
+D2816	Non Arbitrage Ask Trust Best Quote Volume
+D2817	Non Arbitrage Ask Proprietary Best Quote Volume
+D2818	Non Arbitrage Bid Trust Best Quote Volume
+D2819	Non Arbitrage Bid Proprietary Best Quote Volume
+D2820	Arbitrage Ask Trust Best Quote Amount
+D2821	Arbitrage Ask Proprietary Best Quote Amount
+D2822	Arbitrage Bid Trust Best Quote Amount
+D2823	Arbitrage Bid Proprietary Best Quote Amount
+D2824	Non Arbitrage Ask Trust Best Quote Amount
+D2825	Non Arbitrage Ask Proprietary Best Quote Amount
+D2826	Non Arbitrage Bid Trust Best Quote Amount
+D2827	Non Arbitrage Bid Proprietary Best Quote Amount
+D2828	LME Warehouse Stock Movement
+D2829	Self-match prevention cancelled quantity: In case of a prevented match event the cancelled quantity will be disseminated
+D2830	Volume discovery minimum execution quantity per tradable instrument
+D2831	Bid/ask spread alert - once a day  threshold for maximum spread reached. A once a day  threshold is based on the average of the most extreme values per day within the last 30 trading days (threshold H1)
+D2832	Bid/ask spread alert - every ten days  threshold for maximum spread reached. An every ten days  threshold is based on the average of the most extreme values per 10 days within the last three 10 trading day periods (threshold H2)
+D2833	Buy resilience 20 alert - once a day  threshold for minimum volume reached. A once a day  threshold is based on the average of the most extreme values per day within the last 30 trading days (threshold H1)
+D2834	Buy resilience 20 alert - every ten days  threshold for minimum volume reached. An every ten days  threshold is based on the average of the most extreme values per 10 days within the last three 10 trading day periods (threshold H2)
+D2835	Sell resilience 20 alert - once a day  threshold for minimum volume reached. A once a day  threshold is based on the average of the most extreme values per day within the last 30 trading days (threshold H1)
+D2836	Sell resilience 20 alert - every ten days  threshold for minimum volume reached. An every ten days  threshold is based on the average of the most extreme values per 10 days within the last three 10 trading day periods (threshold H2)
+D2837	Price range alert - once a day  threshold for maximum price range reached. A once a day  threshold is based on the average of the most extreme values per day within the last 30 trading days (threshold H1)
+D2838	Price range alert - every ten days  threshold for maximum price range reached. An every ten days  threshold is based on the average of the most extreme values per 10 days within the last three 10 trading day periods (threshold H2)
+D2839	Number of arrived buy orders from last second, published every second
+D2840	Number of arrived buy limit orders from last second, published every second
+D2841	Number of arrived sell limit orders from last second, published every second
+D2842	Number of arrived buy quotes from last second, published every second
+D2843	Number of arrived sell quotes from last second, published every second
+D2844	Number of arrived sell orders from last second, published every second
+D2845	Quantity of arrived orders from last second, published every second
+D2846	Quantity of arrived buy orders from last second, published every second
+D2847	Quantity of arrived buy limit orders from last second, published every second
+D2848	Quantity of arrived sell limit orders from last second, published every second
+D2849	Quantity of arrived buy quotes from last second, published every second
+D2850	Quantity of arrived sell quotes from last second, published every second
+D2851	Quantity of arrived sell orders from last second, published every second
+D2852	Average realized volatility, published every second
+D2853	Time weighted average bid/ask spread, published every second
+D2854	Maximum bid/ask spread from last second, published every second
+D2855	Minimum bid/ask spread from last second, published every second
+D2856	Buyer/seller relation indicator from last second, published every second
+D2857	Number of cancelled orders from last second, published every second
+D2858	Number of cancelled buy orders from last second, published every second
+D2859	Number of cancelled limit orders from last second, published every second
+D2860	Number of cancelled limit orders from last second, published every second
+D2861	Number of cancelled buy limit orders from last second, published every second
+D2862	Number of cancelled sell limit orders from last second, published every second
+D2863	Number of cancelled market orders from last second, published every second
+D2864	Number of cancelled buy market orders from last second, published every second
+D2865	Number of cancelled sell market orders from last second, published every second
+D2866	Number of cancelled quotes from last second, published every second
+D2867	Number of cancelled buy quotes from last second, published every second
+D2868	Number of cancelled sell quotes from last second, published every second
+D2869	Number of cancelled sell orders from last second, published every second
+D2870	Number of cancelled stop orders from last second, published every second
+D2871	Number of cancelled buy stop orders from last second, published every second
+D2872	Number of cancelled sell stop orders from last second, published every second
+D2873	Average resting time of orders executed in last second, published every second
+D2874	Spread actually paid in trade. Due to liquidity provisioning via IOC orders the spread may by significantly smaller than visible bid/ask spread.  Effective spread is defined as  traded price   best ask at time of sell trade * 1 or traded price   best bid at time of buy trade * -1
+D2875	Number of buy triggered trades from last second, published every second
+D2876	Number of sell triggered trades from last second, published every second
+D2877	Average volume from last second, which needs to be executed to move price 10 price ticks up
+D2878	Maximum volume from last second, which needs to be executed to move price 10 price ticks up
+D2879	Minimum volume from last second, which needs to be executed to move price 10 price ticks up
+D2880	Average volume from last second, which needs to be executed to move price 10 price ticks down
+D2881	Maximum volume from last second, which needs to be executed to move price 10 price ticks down
+D2882	Minimum volume from last second, which needs to be executed to move price 10 price ticks down
+D2883	Average volume from last second, which needs to be executed to move price 20 price ticks up
+D2884	Maximum volume from last second, which needs to be executed to move price 20 price ticks up
+D2885	Minimum volume from last second, which needs to be executed to move price 20 price ticks up
+D2886	Average volume from last second, which needs to be executed to move price 20 price ticks down
+D2887	Maximum volume from last second, which needs to be executed to move price 20 price ticks down
+D2888	Minimum volume from last second, which needs to be executed to move price 20 price ticks down
+D2889	Average volume from last second, which needs to be executed to move price 5 price ticks up
+D2890	Maximum volume from last second, which needs to be executed to move price 5 price ticks up
+D2891	Minimum volume from last second, which needs to be executed to move price 5 price ticks up
+D2892	Average volume from last second, which needs to be executed to move price 5 price ticks down
+D2893	Maximum volume from last second, which needs to be executed to move price 5 price ticks down
+D2894	Minimum volume from last second, which needs to be executed to move price 5 price ticks down
+D2895	Maximum price from last second, published every second
+D2896	Minimum price from last second, published every second
+D2897	Price range derived from maximum and minimum price from last second, published every second
+D2898	Quantity of buy triggered trades from last second, published every second
+D2899	Quantity of sell triggered trades from last second, published every second
+D2900	10 second horizon forecast - First 10 second time frame, published every 5 seconds
+D2901	10 second horizon forecast - Second 10 time frame, published every 5 seconds
+D2902	10 second horizon forecast - Third 10 time frame, published every 5 seconds
+D2903	10 second horizon forecast - Fourth10 time frame, published every 5 seconds
+D2904	10 second horizon forecast - Fifth 10 time frame, published every 5 seconds
+D2905	1 minute horizon forecast - First 1 minute time frame, published every 30 seconds
+D2906	1 minute horizon forecast - Second 1 minute time frame, published every 30 seconds
+D2907	1 minute horizon forecast - Third 1 minute time frame, published every 30 seconds
+D2908	1 minute horizon forecast - Fourth 1 minute time frame, published every 30 seconds
+D2909	1 minute horizon forecast - Fifth 1 minute time frame, published every 30 seconds
+D2910	10 minute horizon forecast - First 10 minute time frame, published every 5 minutes
+D2911	10 minute horizon forecast - Second 10 minute time frame, published every 5 minutes
+D2912	10 minute horizon forecast - Third 10 minute time frame, published every 5 minutes
+D2913	VWAP from agent trades from last second, published every second
+D2914	VWAP from buy triggered trades from last second, published every second
+D2915	VWAP from sell triggered trades from last second, published every second
+D2916	'Y' or 'N'; 'Y' = the order is a "long life" order
+D2917	Bolsa code belonging to the member (buy side)
+D2918	Delay in minutes for delayed data
+D2919	Execution venue ID
+D2920	Describes how the price limits (D42 and D43) are expressed. The default value is "0" (Price Unit). Valid values: 0 = Price Unit 1= Ticks 2 = Percentage
+D2921	Date when the order was inserted or re-inserted into the order book (used for GTD/GTC orders, only for equities market). In Trade (269=2 - New or Delete) - original trade date or manually entered by MktOps
+D2922	The time when the order was inserted or re-inserted into the order book or manually altered by MktOps
+D3888	Internal Morningstar use only

@@ -1,0 +1,1474 @@
+S1	Add (3) / Modify (2) / Delete (1) Flag
+S2	Root symbol (for options,...)
+S3	DTB version code
+S4	Expiration day
+S5	Expiration month
+S6	Expiration year (modulo 100)
+S7	Strike price
+S8	Contract size (shares per contract)
+S9	Listed Currency
+S10	Unit size (not used)
+S11	Unit type (not used)
+S12	Company name
+S13	Additional company name information
+S14	Last trading date day
+S15	Last trading date month
+S16	Last trading date year
+S17	High
+S18	Low
+S19	ISIN code
+S20	Market specific instrument type
+S21	Market specific industry sector/Market Tier (NASDAQ)
+S30	Minimum tick size
+S31	Contract name
+S32	Short name
+S33	Local instrument code (like sedol, sicovam, wpk,...)
+S34	Country
+S35	Market specific security flag (index constituents, special sec sub type)
+S36	Market specific segment code (like LSE market segment)
+S37	Market specific sector code (like LSE market sector)
+S38	Additional companies long name (n.u.)
+S39	2nd symbol name (n.u.)
+S40	Contract source information
+S41	Previous currency code (after EURO conversion)
+S54	Enablement Byte
+S214	Listing market for the exchange (US Equities)
+S250	Static Link Symbol (0Y)
+S512	Number of Listed shares
+S513	Preferred shares ( / 10000)
+S514	Ranking (S&P ranking)
+S515	Fiscal year end month (1=Jan,...)
+S516	52 week high price (Not Used)
+S517	52 week high price date (Not Used)
+S518	52 week low price (Not Used)
+S519	52 week low price date (Not Used)
+S520	P/E (== KGV)
+S521	Last dividend (annual)
+S522	Last dividend date
+S523	Next dividend
+S524	Next dividend date
+S525	Cash ex dividend
+S526	Special dividend
+S527	Split ratio
+S528	Last split date
+S529	Earnings per share (current)
+S530	Earnings per share (estim.)/Consensus
+S531	Earnings per share interim
+S532	Earnings per share 5 years growth
+S533	Earnings per share last fiscal year
+S534	Debt to equity ratio
+S535	Yield
+S536	Volatility beta
+S537	Volatility V30 (TPF only)
+S538	Volatility V250 (TPF only)
+S539	Volatility K30 (TPF only)
+S540	Volatility K250 (TPF only)
+S541	DIP
+S542	Last subscription right
+S543	Last subscription right date
+S544	Subscription ratio/ Conversion ratio
+S545	Maturity start date
+S546	Maturity end date
+S547	Interest rate
+S548	Interest due date
+S549	Capitalization
+S550	Issue price
+S551	Interest rate period
+S552	Next subscription price
+S553	Next subscription price date
+S554	Repayment price
+S555	Listing start date (string)
+S556	Listing end date (string)
+S557	Nominal price
+S558	Adjusted price
+S559	Coupon number
+S560	High limit
+S561	Low limit
+S562	Fund performance in percent
+S563	Clearing ISIN (Euronext)
+S564	LSE Normal Market Size
+S565	LSE ex-market code
+S566	LSE ex-market start date (string)
+S567	LSE ex-market end date (string)
+S568	Next split ratio
+S569	Next split date (string)
+S570	LSE participant mnemonic code
+S571	LSE participant bic code
+S572	LSE participant name
+S573	LSE participant telephone number
+S574	LSE participant type, valid types are:
+S575	LSE participant last update date
+S576	Market Mechanism type A
+S577	Market Mechanism type B
+S578	Type allowed indicator
+S579	Period description
+S580	Quote close indicator
+S581	Delete all orders indicator
+S582	Uncrossing process indicator
+S583	Closing prices frozen indicator
+S584	Participant message entry indicator
+S585	Price monitoring indicator
+S586	Price monitoring tolerance
+S587	Price monitoring period
+S588	Price monitoring Dynamic Tolerance
+S589	Market mechanism type
+S590	Entry allowed indicator
+S591	Delete/close allowed indicator
+S592	Market segment name
+S593	Minimum quote size multiplier
+S594	Maximum quote size multiplier
+S595	Reduced minimum quote size multiplier
+S596	Minimum aggregate size multiplier
+S597	Maximum trade size floor multiplier
+S598	Minimum trade size ceiling multiplier
+S599	Minimum agent order size multiplier
+S600	Maximum agent order size multiplier
+S601	Minimum principal order size
+S602	Maximum principal order size
+S603	Trade size restriction indicator
+S604	Orders best indicator
+S605	Executable quotes best indicator
+S606	All quotes best indicator
+S607	Firm quote execution rank
+S608	Limit order execution rank
+S609	Committed principal execution rank
+S610	Participant code dissemination
+S611	Order expiration dissemination
+S612	Trade size dissemination indicator
+S613	Aggregate size dissemination
+S614	Dealing capacity dissemination
+S615	Best price dissemination indicator
+S616	Firm quote dissemination indicator
+S617	Indicative quote dissemination
+S618	Committed principal dissemination
+S619	Limit order dissemination indicator
+S620	Firm exposure order dissemination
+S621	Indicative exposure order
+S622	Indicative order price entry
+S623	Indicative order size entry indicator
+S624	Order expiry date and time indicator
+S625	Number of valid days
+S626	Exposure order single fill indicator
+S627	Preferred counterparty indicator
+S628	Trade/best indicator
+S629	Trade reporting period start time
+S630	Trade reporting period end time
+S631	Overnight trade time limit
+S632	Message type
+S633	Period start time
+S634	Period name
+S635	Quote unit
+S636	Order Lot size
+S637	Minimum principal order size
+S638	Maximum principal order size
+S639	Minimum agent order size
+S640	Maximum agent order size
+S641	Minimum quote size
+S642	Maximum quote size
+S643	Suspended status
+S644	Price format code
+S645	Display price format code
+S646	Session start time (min of day)
+S647	Session end time (min of day)
+S648	Cmd contract type description
+S649	FIM market admission type
+S650	Price 1 week back
+S651	Price 1 month back
+S652	Price 3 months back
+S653	Price 6 months back
+S654	Price 1 year back
+S655	Not used
+S656	Price year to date
+S657	Average daily volume of last 2 weeks
+S658	Average daily volume of last 3 months
+S659	Average daily volume of last 1 year
+S660	Volume weighted average of last 2 weeks
+S661	Volume weighted average of last 10 weeks
+S662	Volume weighted average of last 1 year
+S663	Weekly monetary volume (double)
+S664	Minimum tick size/Lot size (NASDAQ)
+S665	Minimum value
+S666	Original exchange contract code (for derivatives)
+S667	LSE Bid Status Flag (Y=takeover situation, N = No Takeover situation)
+S668	NASDAQ financial status Indicator
+S669	Previous day capital traded
+S670	FIM official quotation list
+S671	FIM Type of derivative for an instrument (1, 4, 9)
+S672	FIM nominal market value
+S673	FIM main settlement type
+S674	FIM corporate event type
+S675	FIM price unit type
+S676	Exchange code
+S677	Call ('C') or Put ('P') (For HK Bull or Bear)
+S678	Annualised Dividend (Toronto)
+S679	Issue Capital
+S680	Face value
+S681	CFI Code
+S682	PSE ExDiv Flag
+S683	PSE Security Status Flag
+S684	PSE ExRight Flag
+S685	PSE Designated Flag
+S686	PSE Split Flag
+S687	PSE Notice Flag
+S688	Block/Board Lot Size
+S689	PSE Big Lot Size
+S690	PSE foreign ownable shares
+S691	PSE Current foreign shares
+S692	PSE DN Coupon date (yyyymmdd)
+S693	Issuer Code
+S694	Number of Units Issued
+S695	Rolling 52 Week High
+S696	Rolling 52 Week High Date
+S697	Rolling 52 Week Low
+S698	Rolling 52 Week Low Date
+S699	Calendar 52 Week High
+S700	Calendar 52 Week High Date
+S701	Calendar 52 Week Low
+S702	Calendar 52 Week Low Date
+S703	Rolling 52 Wk Avg Daily vol
+S704	Calendar 52 Wk Avg Daily vol
+S705	Total annual vol YTD
+S706	Rolling Avg # daily trades
+S707	Calendar Avg # daily trades
+S708	Rolling high # daily trades
+S709	Rolling high # daily trades - Date
+S710	Calendar high # daily trades
+S711	Calendar high # daily trades - Date
+S712	Rolling low # daily trades
+S713	Rolling low # daily trades - Date
+S714	Calendar low # daily trades
+S715	Calendar low # daily trades - Date
+S716	% close price chg today vs 1 month
+S717	% close price chg today vs 6 month
+S718	% close price chg today vs 1 Year
+S719	% chg Avg daily vol (last 10 days) vs ADV 12 Months
+S720	Link to equity research file
+S721	Exchange name
+S722	German WKN (Wertpapierkennummer)
+S723	EDI Security Type
+S724	EDI Primary Exchange
+S725	EDI Exchange code
+S726	EDI Local flag
+S727	MLD Lock flag (for internal use only)
+S728	QS Symbol Suffix
+S729	Event ID - unique event identifier - Corporate Action
+S730	Event label - text description of event eg "company meeting" or "bonus" - Corporate Action
+S731	Created date - date corporate action was first announced - Corporate Action
+S732	Changed date - date of last update if first then will equal S731 - Corporate Action
+S733	flag - possible values are I, U, C, D - Corporate Action
+S734	Ratio New - Corporate Action
+S735	Ratio Old - Corporate Action
+S736	Fraction - possible values are C, D, F, U or blank - Corporate Action
+S737	resultant ISIN - resultant ISIN from the event - Corporate Action
+S738	resultant ID - resultant ID from the event - Corporate Action
+S739	Filing Date - Corporate Action
+S740	Effective Date - Corporate Action
+S741	AGM Date - Corporate Action
+S742	Pay Date - Corporate Action
+S743	End Trade Date - Corporate Action
+S744	New Code Date - Corporate Action
+S745	Assimilation Date - Corporate Action
+S746	Redeem Date - Corporate Action
+S747	From Date - Corporate Action
+S748	DRIP Pay Date - Corporate Action
+S749	Notification Date - Corporate Action
+S750	EX Date - Corporation Action
+S751	Start Trade Date - Corporate Action
+S752	Received Date - Corporate Action
+S753	To Date - Corporate Action
+S754	Split Date - Corporate Action
+S755	Last Date - Corporate Action
+S756	EDI Sec ID
+S757	Due Date - Corporate Action
+S758	Change YTD
+S767	Static Link symbol (0W)
+S780	Expiry date (Julian) (note combination of R4,R5 & R6)
+S781	Market Center
+S785	Date of last feed message (internal Snapper)
+S786	Last Trading Date constructed from S14,S15, S16 used with S780 for creation of H10
+S1000	Morningstar Performance Id
+S1011	Valoren
+S1012	CUSIP
+S1013	Sedol
+S1017	Share Class Description
+S1018	Share Class Status ID
+S1041	Morningstar Industry Name
+S1042	Morningstar Group Name
+S1043	Morningstar Sector Name
+S1054	Gross Margin
+S1055	Operating Margin
+S1057	Net Margin
+S1059	Earnings Before Interest and Tax
+S1060	EBITDA
+S1074	CF Per Share
+S1075	FCF Per share
+S1076	Earnings Yield
+S1077	PE Ratio
+S1078	Sales Yield
+S1079	PS Ratio
+S1080	Book Value Yield
+S1081	Price to Book
+S1082	CF Yield
+S1083	PCF Ratio
+S1084	FCF Yield
+S1085	FCF Ratio
+S1086	Dividend Yield
+S1087	Forward Dividend Yield
+S1088	Forward Earnings Yield
+S1102	Gross Profit
+S1113	Net Income
+S1118	Revenue
+S1122	Operating Income
+S1151	Cash
+S1299	ROE / 1 Day Total Return
+S1314	Shares outstanding
+S1315	Market Cap
+S1358	MS Security ID
+S1359	MS Symbol
+S1360	MS Sectype
+S1361	MS Shares Outstanding
+S1362	MS Extended Support (E= ER, F=Fund, 0 = none)
+S1363	Diluted EPS
+S1364	Dividend per share
+S1365	Market Value
+S1366	Free Cash flow
+S1367	PE Ratio
+S1368	Price to EPS
+S1369	Return on Investment
+S1370	Exchange TSO
+S1371	FundShareClassNetAsset
+S1372	TrailingY1Yield
+S1373	Rating Overall
+S1374	Risk Rating Overall
+S1375	Performance Rating Overall
+S1376	Initial Investment
+S1377	Annual Report Net Expense Ratio
+S1378	Initial Investment Currency
+S1379	Inception Date
+S1380	JP Fund Base Date
+S1381	MS 3 Year Beta
+S1382	MS 5 Year Beta
+S1383	MS Prospectus Dividend Expense
+S1384	MS Dividend Expense
+S1385	MS Annual Report Dividend Fee
+S1386	MS Fund Annual Report Dividend Fee
+S1387	MS Prospective Dividend Yield Long
+S1388	MS Prospective Dividend Yield Short
+S1389	MS Guaranteed Dividend
+S1390	MS Last dividend paid
+S1391	MS Dividend rate
+S1392	MS Dividend Currency Code
+S1393	MS Dividend Ending Date (Julian format)
+S1394	MS Total Cash Dividend 1 Day
+S1395	MS Total Cash Dividend 1 Week
+S1396	MS Total Cash Dividend 1 Month
+S1397	MS Total Cash Dividend 3 Months
+S1398	MS Total Cash Dividend 6 Months
+S1399	MS Total Cash Dividend 1 Year
+S1400	MS Total Cash Dividend 2 Years
+S1401	MS Total Cash Dividend 3 Years
+S1402	MS Total Cash Dividend 5 Years
+S1403	MS Total Cash Dividend YTD
+S1404	MS Total (Regular) Cash Dividend TTM
+S1405	FIGI composite code
+S1494	Trading method for the security
+S1495	N = no, Y = automatch (default: N if absent)
+S1496	N = no, Y = yes
+S1497	N = no, Y = yes
+S1498	N = no counterparty info, Y = counterparty info available
+S1499	N = no, Y = yes
+S1500	Total issue
+S1501	Voting power
+S1502	Specifies the first date in the dividend period (when the company earned the result giving the dividend)
+S1503	Specifies the last date in the dividend period
+S1504	Dividend currency
+S1506	Date for general meeting when the dividend was decided
+S1507	Specifies the record date of the dividend, when the holders of instruments are eligible to receive the dividend
+S1508	Payment date of declared dividend;the scheduled date it is to be paid.
+S1509	Year of assessment
+S1510	Taxation value per share
+S1511	The date when the current number of listed shares was set
+S1512	Share class
+S1513	Settlement Type
+S1514	Delivery/exercise from date
+S1515	Delivery/exercise to date
+S1516	If the settlement date is not disseminated, the default date is three days from the trade date
+S1517	Number of underlying instruments  for this instrument
+S1518	Duration from date
+S1519	Duration to date
+S1520	Exercise lot
+S1521	Minimum exercise lot
+S1522	Subscription currency
+S1523	Dividend from year
+S1524	Specifies the quantity of the underlying, which the holder is to receive for the specified no. of options for one share, this data field contains '1'
+S1525	Outstanding Amount bond books for bonds
+S1526	Margin Rate for bonds
+S1527	Bond type
+S1528	Issued amount
+S1529	Date of issue
+S1530	Outstanding amount
+S1531	Record date
+S1532	Lottery date
+S1533	Conversion price
+S1534	No cash flow parameters are registered in SAXESS for basic bonds
+S1535	Rate Calculation type
+S1536	Day count method for interest rate calculation
+S1537	Loan number
+S1538	Specifies external bond type
+S1539	Specifies when the bond matures. Early (E) = first half of the year, late (L) = second half of the year
+S1540	The percentage of which the loan is redeemed. Normally100%. Real yield loans can have a different (normally higher) value
+S1541	Specifies the bond has amortization
+S1542	Used for FRA (Forward Rate Agreement) loans, futures and forwards. Specifies the fixed (and only) settlement date
+S1543	Defines freq of adjustment of interest rate. Specified as no of adjustments per year (2 = half year adjustment, 0.5 = biannual adjustments)
+S1544	Refers to a relevant reference rate (e g LIBOR). This rate, if applicable, defines the base of interest rate used for the bond
+S1545	Dividend from year
+S1546	Defines frequency of coupons . Specified as number of coupons per year (2 = half year coupons, 0.5 = biannual coupons)
+S1547	Specifies how the record date is decided
+S1548	Specifies which day in any month which is used as the record day. Used only when the record date type is specified as fixed.
+S1549	Specifies the number of bank days between the record date and the coupon date. Used only is the record day type is specified
+S1550	Specifies if the bond is to be traded only by participants defined as primary dealers for the issuer of the bond
+S1551	Specifies the first date from which the interest is calculated
+S1552	Specifies whether the system is to calculate the price from a given interest rate or the other way round
+S1553	Specifies if the bond is a benchmark bond
+S1554	Interest calculation. FROM = From start date, excluding end date THRU = Excluding start date, including end date BOTH = Including start and end date
+S1555	Date when the last coupon was paid
+S1556	Date when the final coupon is paid
+S1557	Specifies which of the following types a loan is
+S1558	Series
+S1559	Date when clearing institute decides which holder will receive coupon payout. A no of days before coupon date which has impact on bonds pricing
+S1560	Specifies which date is the first in the period. Implies that the rate is valid until the next period begins or the loan matures
+S1561	States the type of value that the volume is expressed in
+S1562	Identifies the calculation method of the bond/bill
+S1563	The interest premium for the market. The premium is used in the calculation of the yield /price of the bond
+S1564	Date of latest change at the constituent level (populations, number of shares etc)
+S1565	Number of cash flows
+S1566	Specifies the number of coupons per year
+S1567	Specifies the number of days to first cash flow
+S1568	Specifies the number of days in first coupon period
+S1569	Specifies the accrued interest
+S1570	Specifies the index coupon adjustment
+S1571	Specifies the index factor
+S1572	Defines whether compound or simple interest should be used for present value calculation
+S1573	Specifies the calculation convention for NASDAQ OMX's listed bonds
+S1574	Installment frequency
+S1575	First ordinary installment date
+S1576	Convert from date
+S1577	Convert through date
+S1578	Reference Index
+S1579	First ordinary coupon date
+S1580	Base value
+S1581	Base date
+S1582	Parent ISIN id
+S1583	Lottery date 2
+S1584	Lottery date 3
+S1585	Share capital
+S1586	Adjustment amount
+S1587	Index price type
+S1588	Report UTC loan
+S1589	Exercise currency
+S1590	Cash component
+S1591	Net asset value
+S1592	No. of units outstanding
+S1593	Tenor option type
+S1594	Volume dimension
+S1595	Defines what type of identifier is used in the Underlying External Id Field
+S1596	Defines the type of security of the underlying
+S1597	Percentage of underlying value
+S1598	The date when exercise index is fixed
+S1599	Trading Currency
+S1600	Instrument Sub Type
+S1601	Issuer Sign
+S1602	Issuer currency
+S1603	Price type (monetary amount or yield)
+S1604	Round Lot size
+S1605	Certified advisor (sponsor)
+S1606	Indicates if the instrument has a Liquidity Provider
+S1607	Reference Price
+S1608	Reference Price Yield
+S1609	Reference price Higher limit
+S1610	Reference price lower limit
+S1611	Ranking according to liquidity
+S1612	Date of latest change in Basic Data Index for this index
+S1613	Deferred Publication Class
+S1614	Listed number of units for an order book
+S1615	Nominal value
+S1616	Block trade criteria size based on avg daily turnover. Min size of order qualifying as a block, presented in value in the currency of the order book
+S1617	Average daily turnover
+S1618	Mid-price Matching
+S1619	Maximum mid-price spread
+S1620	Mid-price auction
+S1621	Mid-price allotment model
+S1622	Deferred disclosure of counterparties
+S1623	Indicates that this tradable uses CCP clearing
+S1624	Settlement schedule
+S1625	Index type
+S1626	Population type
+S1627	Maturity lower limit
+S1628	Maturity higher limit
+S1629	Index Calculation type
+S1630	Start value
+S1631	Minimum dissemination interval
+S1632	Maximum dissemination interval expressed in seconds
+S1633	Index Type (Price or Gross for reinvestment of dividends)
+S1634	Date of Last Trade (Euronext)
+S1635	Depositary List
+S1636	Index Set of Var Price Tick
+S1637	MIC List
+S1638	Repo Indicator
+S1639	Type of Unit Expected
+S1640	Market Indicator
+S1641	Tax Code
+S1642	Currency Coefficient
+S1643	Trading Currency Indicator
+S1644	Strike Currency Indicator
+S1645	Short sell flag
+S1646	Short sell indicator
+S1647	NLI asset class
+S1648	NLI distribution policy
+S1649	NLI Issue Condition code
+S1650	NLI Issue frequency code
+S1651	NLI Redemption condition code
+S1652	NLI Redemption frequency code
+S1653	NLI Indicative price min. text
+S1654	NLI Indicative price min. date
+S1655	NLI Indicative price min. currency
+S1656	NLI Indicative price amount
+S1657	NLI Type of collective investment vehicle
+S1658	NLI Market type code
+S1659	NLI Secondary fund type code
+S1660	list of index symbols where the stock is a constituent
+S1661	list of index weights
+S1662	list of index percentages
+S1663	Source of Static (internal only)
+S1664	Exercise Type - A (US) / E (Eur)
+S1665	NAV total amount
+S1666	Foreign NAV total amount
+S1667	Foreign NAV amount
+S1668	Foreign NAV total
+S1669	Cum vol
+S1670	Product type
+S1671	Foreign NAV
+S1672	Basis price
+S1673	Previous basis price
+S1674	Previous previous basis price
+S1675	Previous dividend cash
+S1676	Strategy Leg 1
+S1677	Strategy Leg 2
+S1678	Strategy Leg 3
+S1679	Strategy Leg 4
+S1680	Coupon date
+S1681	Ex Date
+S1682	Payment date
+S1683	MS.COM legacy Symbol
+S1684	OfferedSecType
+S1685	PrevParValue
+S1686	NewParValue
+S1687	PreParValueCur
+S1688	NewParValueCur
+S1689	NewSymbol
+S1690	DividendType
+S1691	GrossDividend
+S1692	NetDividend
+S1693	GrossDividendCur
+S1694	NetDividendCur
+S1695	PayDate2
+S1696	PreviousName
+S1697	NewName
+S1698	RealtedEvent
+S1699	LegalName
+S1700	AppointedDate
+S1701	MergerStatus
+S1702	CompaniesMergedTo
+S1703	NegotiatedPrice
+S1704	OfferOpeningDate
+S1705	OfferClosingDate
+S1706	MinimumPrice
+S1707	MaximumPrice
+S1708	MinQualQuantity
+S1709	MaxQualQuantity
+S1710	MinAccQuantity
+S1711	MaxAccQuantity
+S1712	Payment Type
+S1713	TaveoverStatus
+S1714	OpenDate
+S1715	CloseDate
+S1716	UnconditionalDate
+S1717	TakeoverType
+S1718	Ceiling Price
+S1719	Floor Price
+S1720	Subs update field
+S1721	Barrier (call) price at which the CBBC is callable
+S1722	Original ICB industry classification code
+S1723	Coupon Type
+S1724	MS Earnings per share
+S1725	Unicode native language company name
+S1726	Upper barrier price
+S1727	Underlying paper for warrants etc
+S1728	Index constituent ID
+S1729	Corresponding iNAV symbol
+S1730	Character Set for S1725
+S1731	Local Index Constituents - Comma seperated list
+S1732	Global Index constituents - Commas seperated list
+S1733	FTSE sub sector index indicator
+S1734	Local Language Long Name
+S1735	Global ID investment type
+S1736	MS Listing Exchange code
+S1737	First trading time in msecs since midnight
+S1738	Last trading time in msecs since midnight
+S1739	Calendar ID
+S1740	Post Trade Parameter ID
+S1741	Trading Parameter ID
+S1742	Clearing Type
+S1743	Exchange Market Size
+S1744	Last Trading Day
+S1745	Average Daily Turnover
+S1746	Warrant Ratio
+S1747	Settlement Type
+S1748	Standard Market Size
+S1749	Unit Of Quotation
+S1750	Warrant Expiry
+S1751	Warrant Underlying Desc
+S1752	Price Band Outer Limit Perc
+S1753	Static Circuit Breaker Perc
+S1754	Dynamic Circuit Breaker Perc
+S1755	Primary Book
+S1756	Min Reserve Order Value
+S1757	Coupon
+S1758	Distribution Frequency
+S1759	Long Term Debt and Capital Lease Obligation
+S1760	Securities borrowed
+S1761	Static Reference Price Policy
+S1762	CB Alert Tks
+S1763	Static CBTks
+S1764	Dynamic CBTks
+S1765	Filtering interval
+S1766	Morningstar ID
+S1767	Defines the direction of the product: Bull / Bear, Long / Short, Buy / Sel
+S1768	Leverage, field value 1 = 100%
+S1769	Settlement date
+S1770	Applies to Max certificates
+S1771	Applies to Mini-Futures
+S1772	Beginning of period for calculating settlement value
+S1773	Last day of period of calculating settlement value
+S1774	List of participant ids referencing BDParticipant
+S1775	Free text field to sum up or reference (URL) the product description
+S1776	The MIC code of the market primarily trading the order book. Specified for secondary listings only.
+S1777	Source System
+S1778	Certificate size
+S1779	Filtering class. States the transmitter of the information
+S1780	Legal construction
+S1781	Investment focus geographic
+S1782	Investment focus instruments
+S1783	Allocation profile
+S1784	Number of payouts per year
+S1785	Taxation principle
+S1786	Type of fund
+S1787	Fund domicile
+S1788	Market and submarket affiliation
+S1789	Type of reporting obligation
+S1790	Eurex Market Segment Status Defines if a Eurex product is still traded on 'Eurex classic' (=Published) or on the new trading Architecture (+Active)
+S1791	Country of registration
+S1792	Country of listing
+S1793	Old Instrument
+S1794	New Instrument
+S1795	Old Name
+S1796	New name
+S1797	MS Forward Estimate EPS
+S1798	MS Free Float
+S1799	MS Number of Share Class A outstanding
+S1852	Origional Message Type
+S2188	Origional Sequence number
+S2000	Full expiration date (internal use only)
+S2002	Delete file (internal use only)
+S2004	Instrument Code Change (Internal Use Only)
+S3000	Instrument Start Trading Date
+S3001	Instrument Start Trading Date Time
+S3002	Instrument End Trading Date
+S3003	Instrument End Trading Date Time
+S3004	Option Expiration Start Date
+S3005	Option Expiration Start Date Time
+S3006	Option Expiration End Date
+S3007	Option Expiration End Date Time
+S3008	Maturity Time
+S3009	Corporate Action - Option ID - Multiple payment option ID (integer)
+S3010	Corporate Action - Serial ID - Multiple payment serial ID (integer)
+S3011	Corporate Action - Par Value - Security Par value (Double)
+S3012	Corporate Action - Par Value Currency - Currency of the par value (string)
+S3013	Corporate Action - Listing Status (D, N, R, S or blank) ****
+S3014	Corporate Action - Pay Type (B, C, S and Blank)
+S3015	Corporate Action - Priority - Indicated order of events when date is shared 1,2,3,4 etc.
+S3016	Corporate Action - Withdrawal to Date
+S3017	Corporate Action - Withdrawal From Date
+S3018	Corporate Action - Min Price
+S3019	Corporate Action - Max Price
+S3020	Corporate Action - Start Subscription
+S3021	Corporate Action - End Subscription Date
+S3022	Corporate Action - Due Date
+S3023	Corporate Action - FYE Date
+S3024	Corporate Action - Pay Date 2
+S3025	Corporate Action - Period End Date
+S3026	Corporate Action - Option Election Date
+S3027	Corporate Action - Registration Date
+S3028	Corporate Action - Declaration Date
+S3029	Corporate Action - Drip Last Date
+S3030	Corporate Action - Drip Pay Date
+S3031	Corporate Action - Crest Date
+S3032	Corporate Action - Issue Price
+S3033	Corporate Action - Old FY Start Date
+S3034	Corporate Action - Old FY End Date
+S3035	Corporate Action - New FY Start Date
+S3036	Corporate Action - New FY End Date
+S3037	Corporate Action - Appointed Date
+S3038	Corporate Action - Offer Opens Date
+S3039	Corporate Action - Offer Closes Date
+S3040	Corporate Action - Cash Back
+S3041	Corporate Action - Redemption Price
+S3042	Corporate Action - Lapsed Premium Price
+S3043	Corporate Action - Cm Acq. Date (Takeover)
+S3044	Corporate Action - Unconditional Date
+S3045	Corporate Action - Dividend - Gross Dividend
+S3046	Corporate Action - Dividend - Net Dividend
+S3047	Corporate Action - Dividend - Dividend Frequency
+S3048	Corporate Action - Dividend - Withholding tax rate
+S3049	Corporate Action - Dividend - Coupon
+S3050	Corporate Action - Dividend - Depositary Fees
+S3051	LEI - Legal Entity Identifier
+S3052	MS Funds Catagory ID
+S3053	MS Funds Global Category ID
+S3054	Name of underlying Stock
+S3055	Sector ID
+S3056	Group ID
+S3057	Industry IF
+S3058	30 Day average volume
+S3059	MS Investment ID (Sec ID)
+S3060	BONO Cross trades inclusion indicator
+S3061	BONO hours inclusion indicator
+S3062	Delta basis trade inclusion indicator
+S3063	IBEX Cross trades hours inclusion indicator
+S3064	IBEX Futures trades inclusion indicator
+S3065	Normal Cross trades hours inclusion indicator
+S3066	Normal Hours inclusion indicator
+S3067	LEG Ratio Quantity
+S3068	No if shares per contract
+S3069	Alternate security ID
+S3070	Contract Subgroup ID
+S3071	ISO MIC code used to identify the underlying listing venue
+S3072	MIC code of the MTF
+S3073	SWIFT code of the Central Securities Depository (CSD)
+S3074	Margin Price
+S3075	Strike Price Divisor
+S3076	Fund Type
+S3077	Dividend Schedule
+S3078	Dividend Amount Type
+S3079	Contract size (decimal)
+S3080	Latest ex-div date (Julian format)
+S3081	Real Listing Exchange
+S3089	Primary instrument in a restructuring corporate action
+S3090	Secondary instrument in a restructuring corporate action
+S3091	Resultant instrument in a restructuring corporate action
+S3092	The type of dividend in a corporate action - Cash Dividend/Special Dividend/Return on capital
+S3093	The Declare date of a dividend in a corporate action
+S3094	The Record date of a dividend in a corporate action
+S3095	The Payment date of a dividend in a corporate action
+S3096	The currency of the Dividend payment in a corporate action
+S3097	The coupon of a dividend in a corporate action
+S3098	The frequency of a dividend payment in a corporate action - Annually/Semi-Annually/ Quarterly/Monthly
+S3099	Indicates whether an instrument is active (A) or not (I) in the feed (internal use only)
+S3100	ETF Leverage Factor
+S3101	Anticipated quotation release time
+S3102	Denotes the IPO price to be used for intraday net change calculations
+S3103	Indicator of inclusion
+S3104	Price Limit Type for the price limits
+S3105	Min Trade Vol
+S3106	Max Trade Vol
+S3107	Centre Strike Flag for Options
+S3108	Book Type (regular, off-book, both)
+S3109	Order submission interval in ms
+S3110	Old Currency for Trading Currency change - Corporate Action
+S3111	Child Spin off instrument for Spin off - Corporate Action
+S3113	Child Instrument Closing Price - Corporate Actions
+S3114	Primary Instrument Closing Price - Corporate Actions
+S3115	Relative Weight for composite
+S3116	Earnings Adjusted to Index
+S3117	Latest 12 months earnings
+S3118	Strategy Leg information for all legs
+S3119	Option Hedge information
+S3120	52week high price provided by the exchange
+S3121	52week high date provided by the exchange (yyyymmdd)
+S3122	52week low price provided by the exchange
+S3123	52week low date provided by the exchange (yyyymmdd)
+S3124	The business date
+S3125	Index Status
+S3126	Index Cap size type
+S3127	Predetermined price level of the underlying instrument that triggers premature expiry. Field is only relevant for certain types of warrants
+S3128	Underlying price level where the investment product reaches its maximum payoff. Field is only relevant for certain types of warrants and ETNs
+S3129	OrderNote
+S3130	Produkt Sort
+S3131	Typ der Basiswerte
+S3132	Optionstyp
+S3133	Schutz gegen Wahrunsrisiko
+S3134	Name des Emittenten
+S3135	WKN des Derivats
+S3136	ISIN des Derivats
+S3137	Ausfuhrungsart
+S3138	Marketing Name
+S3139	WKN des Basiswerts
+S3140	ISIN des Basiswerts
+S3141	Wert der Barriere
+S3142	Nominalwahrung des Basiswertes
+S3143	Falligkeitstag des Derivats
+S3144	Bezugsverhaltnis
+S3145	Produktname des Emittenten
+S3146	Erster Handelstag
+S3147	Letzter Handelstag
+S3148	Erster Handelstag OTC
+S3149	Letzter Handelstag OTC
+S3150	Handelsgment
+S3151	Handelseinhert
+S3152	Max. Spread in Euro
+S3153	Max. Spread in Prozent
+S3154	Kursbarriere fur den Spread in Prozent
+S3155	Min. Size in Stuck
+S3156	Min. Size in Euro
+S3157	Handelsbeginn
+S3158	Handelssende
+S3159	Ausgabevolumen
+S3160	Indextyp
+S3161	Fees
+S3162	Cancellation
+S3163	Zusatzinformation
+S3164	Cap
+S3165	Sicherungsschwelle
+S3166	Knock-out Barriere
+S3167	Start Wert (Variable Wiederholung [Range I])
+S3168	Stop Wert (variable Wiederholung [Range II])
+S3169	Nominalwert
+S3170	Interest Rate
+S3171	Rolling
+S3172	Hebelprodukt
+S3173	Kursnotierung
+S3174	Kurs in % notiert
+S3175	Datum der Beruhrung der Barriere
+S3176	Veranderungsdatum
+S3177	Participationsrate
+S3178	Bonuslevel
+S3179	Wahrung des Bonuslevels
+S3180	Start Zeichnungsperiode
+S3181	Ende Zeichnungsperiode
+S3182	Emissionspreis
+S3183	Emissionszuschlag
+S3184	Marktsegment
+S3185	QLP
+S3186	Maximum redemption price
+S3187	Produktkategorie der Hebelprodukte
+S3188	Produktkategorie der Anlageprodukte
+S3189	Land der Heimatborse des Basiswert
+S3190	Zahlungsdatum
+S3191	Privatplatzierung
+S3192	Name (Termsheet)
+S3193	Ausgabetag
+S3194	Ausgabevaluta
+S3195	Wahrung Ausgabepreis
+S3196	Referenzborse
+S3197	Referenzkurs
+S3198	Rolling-Strategie
+S3199	Rolling-Periode
+S3200	Managementgebuhr
+S3201	Lock-In
+S3202	Kapitalschutz
+S3203	Abwicklungsart
+S3204	Aktivkennzeichen
+S3205	Deaktivierungsdatum
+S3206	Ausgeknockt
+S3207	Klassifizierung Boerse Stuttgart Level 4
+S3208	Name Klassifizierung Boerse Stuttgart Level 4
+S3209	Aktivcode
+S3210	ID des Emittenten
+S3211	ID der Emittentengruppe
+S3212	Adresse des Emittenten
+S3213	e-Mail Adresse des Emittenten
+S3214	Servicetelefon des Emittenten
+S3215	URL des Emittenten
+S3216	Produkttyp des Emittenten
+S3217	Produkttypebeschreibung Emittent
+S3218	Zeitpunkt der Stammdatenanpassung
+S3219	Zinsberechnungsmethode
+S3220	Bloomberg ID
+S3221	Bloomberg ID des Basiswerts
+S3222	Bedingung Alpha-Struktur
+S3223	Azahl Stucke des Basiswertes im Basket
+S3224	Prozentueller anteil des Basiswerts im Basket
+S3225	Domizilland des Basiswerts
+S3226	Einheit der Barriere
+S3227	Wert der Barriere
+S3228	Datum Beginn Gultigkeit der Barriere
+S3229	Datum Ende Gultigkeit der Barriere
+S3230	Enddatum der Periode
+S3231	Startdatum der Periode
+S3232	Zahlungsdatum
+S3233	Zinssatz in %
+S3234	Min. Zinssatz in %
+S3235	Max. Zinssatz in %
+S3236	Zinsbetrag absolut
+S3237	Partizipationsfaktor
+S3238	Min. Partizipationsfaktor
+S3239	Bonusbetrag
+S3240	Lock-In Betrag
+S3241	Lock-In in %
+S3242	Min. Ruckzahlungsbetrag
+S3243	Min. Ruckzahlungsbetrag in %
+S3244	Max. Ruckzahlungsbetrag in %
+S3245	Art der Zusatzinformation
+S3246	Sprache der Zusatzinformation
+S3247	Zusatzinformation
+S3248	Delisting Datum
+S3249	Ablaufdatum
+S3250	Handelsmodell
+S3251	Klassifizierung Eusipa
+S3252	Name Klassifizierung Eusipa
+S3253	Handelsplatz
+S3254	Cashflow Type
+S3255	Typ der Barriere
+S3256	Strategie der Anlagepolitik
+S3257	Industriebranche
+S3258	Aktiv gemanaged
+S3259	Basket Type
+S3260	Nominalwahrung des Basiswertes
+S3261	Einheit des Basiswertes
+S3262	Kennzeichnung Intraday-Emission
+S3263	Grund des Delistings
+S3264	Rucknahmebetrag
+S3265	Premium-Paket
+S3266	Eindeutigkeit Zuordnung der Barrieren zu Cashflows
+S3267	Eindeutigkeit der Barrieren
+S3268	Wahrung der ruckzahlungsbetrage
+S3269	Boerse Stuttgart instrument Number BSIN
+S3270	IDMS key
+S3271	Is_Incomplete
+S3272	Final Valuation Date
+S3273	Barrier Specification
+S3274	Data under review
+S3275	Type of Observation
+S3276	LEI
+S3277	Leverage Factor
+S3300	Previous days official price
+S3301	Previous days reference price
+S3302	Last price in preceeding session
+S3303	Date of last price in preceeding session (yyyymmdd)
+S3304	Listed price
+S3305	OffExchangeIncrementQty
+S3306	OffExchangeIncrementPrice
+S3307	OffExchangeIncrementOptionPrice
+S3308	UnitQtyDenominator
+S3309	Preceding or current day, 1 - current, 5 - preceding day
+S3310	Constant multiplier of the Notional Vega defined on the product level and used for the clearing quantity conversion
+S3311	Approximate number of trading days during one year defined as a constant on the product level and used for the calculation of Realized Variance
+S3312	Total number of trading days of the instrument, including the first and last trading day, which is one day before the expiration
+S3313	Total number of trading days already passed since the introduction of the instrument
+S3314	Short term interest rate used for the calculation of the next day ARMVM. Only provided for the previous day
+S3315	Calculated from all underlying closing prices since intro of the instrument adjusted by Annual Trading Business Days. Also provided for prev day
+S3316	Calculated from the corresponding Interest-Rate till expiration. Also provided for prev day
+S3317	Represents the economic cost of the variation margin from one trading day to the next. Also provided for previous day.
+S3318	Implied volatility used to calculate settle price. 1st trading day is the bas for std Variance of instrument.
+S3319	Variance ref for trading price conversion & settlement price calc. Provided 1st trading day when parameters are final & remains same after.
+S3320	End-of-Day Settlement Price. Settlement price in clearing notation. Only provided for previous day
+S3321	Indicates if automatic calculation of parameters is disabled and parameters have been manually defined. 0 = auto, 1 = manual
+S3322	Price Notation for Variance Futures. 1 - price + quantity, 2 - Volatility Strike & Vega Notation
+S3323	Interest Rate
+S3324	Previous day closing price of the underlying
+S3325	Tier
+S3326	Lot type, 1 - odd lot, 2 - round lot, 3 - block lot, 4 - all or none
+S3327	Underlying status, 1 - active, 2 - delisted
+S3328	Is virtual underlying status, 1 - yes, 2 - no
+S3329	Stop Loss, a Stop loss is the level o9f the underlying that, if reached, a portion can be redeemable on termination of the warrant
+S3330	Underlying instrument type code
+S3331	Underlying security code for warrants
+S3332	ETN Production Classification Code
+S3333	Distribute Type Code
+S3334	Expiration Redemption Price Decision Start Date
+S3335	Expiration Redemption Price Decision End Date
+S3336	Final Index Value
+S3337	Index Value In Sum of Monex
+S3338	Previous Days Taxable Basic Price
+S3339	Previous Days Taxable Basic Price Before Dividend
+S3340	Previous Days Cash Dividend Price
+S3341	Day Before Previous Days Taxable Basic Price
+S3342	Previous Day IV
+S3343	During Market Hours / Final IV
+S3344	Drip Reinvestment Price
+S3345	Country Code
+S3346	Frank Flag
+S3347	Franked Dividend
+S3348	Un-Franked Dividend
+S3349	Adjustment Rule
+S3350	Exercise Style
+S3351	FLEXIBLE_IND
+S3352	LEGS
+S3353	MATURITY_RULE_INCR
+S3354	MATURITY_RULE_INCR_UINT
+S3355	SETTLEMENT_METHOD
+S3356	SECURITY_SUBTYPE
+S3357	Alpha code of parent index
+S3358	Index category (C, P, E, V, O)
+S3359	Index weight
+S3360	Strategy leg 5
+S3361	Strategy leg 6
+S3362	Strategy leg 7
+S3363	Strategy leg 8
+S3364	Strategy leg 9
+S3365	Strategy leg 10
+S3366	Strategy leg 11
+S3367	Strategy leg 12
+S3368	Strategy leg 13
+S3369	Strategy leg 14
+S3370	Strategy leg 15
+S3371	Strategy leg 16
+S3372	Strategy leg 17
+S3373	Strategy leg 18
+S3374	Strategy leg 19
+S3375	Strategy leg 20
+S3376	Fund distribution status A=Acc, I=Inc
+S3377	Morningstar Standard Name
+S3378	MS Short Business Description
+S3379	MS Medium Business Description
+S3380	HKFE Instrument Class name
+S3381	HKFE Instrument Class ID
+S3382	HKFE CommodityCode (Numerical identifier of the Underlying)
+S3383	Number of Underlying entities per contract
+S3384	Price quotation factor used to calculate the trade price from the order
+S3385	Delisting Date
+S3386	Delisting time
+S3387	Identifier of the foreign ownership rule for which this message applies
+S3388	Merger Status
+S3389	Takeover Status
+S3390	Cross order bid ask spread in percent
+S3391	Minimum BTF (block trade facility) quantity
+S3392	CA - Acquirer Name
+S3393	CA - Target Name
+S3394	CA - Acquirer ISIN
+S3395	CA - Target ISIN
+S3396	CA - New company name
+S3397	CA - New ISIN
+S3398	CA - Old company name
+S3399	CA - Old ISIN
+S3400	Allow NVDR ( Values are ALL, NONE, SELL, ONLY)
+S3401	Allow short sell on NVDR (values are Y, N)
+S3402	Support block trades only
+S3403	Update inactive instruments to 90 day
+S3404	Home country code
+S3405	SFD legal form code
+S3406	SFD legal status code
+S3407	SFD qualified investors only ( T= True, F= False)
+S3408	SFD share class code
+S3409	SFD price type code (1=single,2=dual,3=single swinging)
+S3410	SFD investment manager
+S3411	SFD distributor in Switzerland
+S3412	SFD management company
+S3413	SFD depository bank
+S3414	SFD Swiss representative
+S3415	SFD Swiss paying agent
+S3416	Trading time opening auction in CET
+S3417	Trading time intraday auction in CET
+S3418	Trading time closing auction in CET
+S3419	Specifies if bond is guilt-edged (Y/N)
+S3420	Management Fee
+S3421	Number between 1-12 marking the month when payed out
+S3422	Investment region
+S3423	Capital-back guarantee, in percent
+S3424	Update inactive instruments to 90 day
+S3425	The multiple by which the strike price can be
+S3426	The maximum allowable strike price
+S3427	The premium price where above and below fractions take effect
+S3428	The multiple that premium can be when above the break point
+S3429	Governance Indicator
+S3430	Indicates the Tolerance Percentage for the BTF
+S3431	EMS - Used to specify the minimum size of a BTF for an instrument
+S3432	Unique code used to identify the calendar listed in MIT308 file
+S3433	EMS - Used to specify the maximum size of a Cross/BTF order for an instrument
+S3434	Indicates the allowance to be applied to the reference price. If set to zero should be disregarded
+S3435	Matching Cycle Seconds of the individual stock using aggregate auction.  A value of zero means continuous market method
+S3436	Previous Business Day Exercise Volume
+S3437	Previous Business Day Cancellation Volume
+S3438	Issued Balance Volume for every 1000 Warrants (CBBC)
+S3439	Exercise Rate (per thousand units)
+S3440	Has a market maker or does not have a market marker
+S3441	Minimum order size on entry allowed for that instrument to set a revised Best Bid/offer (BBO)
+S3442	Tick size for hybrid
+S3443	Tick size for VBBO
+S3444	Buyback price for bonds. If defined, Buy Back Date field must be filled. If defined, yield calculation is based on this date and price.
+S3445	Local Market Date Buy back. Early redemption of bonds Buyback date. If it is defined, yield calculation is based on this date
+S3446	Instrument Price Precision
+S3447	The minimum volume required for post only orders
+S3448	Trading date in the format YYYYMMDD
+S3449	Issue limit ratio  (Ex:15% to 0.15 Delivery)
+S3450	Individual limit ratio (Ex:15% to 0.15 Delivery)
+S3451	Number of listed stock (Unit = share)
+S3452	Available quantity for order (Unit = share)
+S3453	Limit exhaustion type (0 = normal, 1 = exhaustion type,  2 = newly designated to exhaustion issue,  3 = Lift of exhaustion issue)
+S3454	Market participant number used to identify and sort the market participant
+S3455	Liquidity Provide starting date given in the format YYYYMMDD
+S3456	Liquidity Provide ending date given in the format YYYYMMDD
+S3457	Order spread unit code (R = Rate, T= Tick)
+S3458	Order spread value. This is the best order spread Interval or rate which happens to submit LP/MM order as duty
+S3459	Market closed for holiday order spread multiple. Applies to underlying assets for derivatives, ELW and ETF.
+S3460	Duty order summit time interval (Unit = Second. Submit the bid order or the ask order which decrease the First best order interval in 00 seconds)
+S3461	Bid minimum order price
+S3462	Ask minimum order price
+S3463	Index arbitrage sell order remaining volume
+S3464	Index arbitrage buy order remaining volume
+S3465	Non arbitrage sell order remaining volume
+S3466	Non arbitrage buy order remaining volume
+S3467	Index arbitrage sell order volume
+S3468	Index arbitrage buy order volume
+S3469	Non arbitrage sell order volume
+S3470	Non arbitrage buy order volume
+S3471	Non arbitrage bid quotes orders not matched program trading content
+S3472	Index arbitrage ask principal trading quantity
+S3473	Index arbitrage bid trust trading quantity
+S3474	Index arbitrage bid principal trading quantity
+S3475	Index non arbitrage ask trust trading quantity
+S3476	Index non arbitrage ask principal trading quantity
+S3477	Index non arbitrage bid trust trading quantity
+S3478	Index non arbitrage bid principal trading quantity
+S3479	Index arbitrage ask trust trading value
+S3480	Index arbitrage ask principal trading value
+S3481	Index arbitrage bid trust trading value
+S3482	Index arbitrage bid principal trading value
+S3483	Index non arbitrage ask trust trading Value
+S3484	Index non arbitrage ask principal trading value
+S3485	Index non arbitrage bid trust trading value
+S3486	Index non arbitrage bid principal trading value
+S3487	Input Date given in the format  YYYYMMDD
+S3488	Comment. In the case of an extraordinary event regarding a trading margin loss balance check
+S3489	Index code refer to code table
+S3490	Dividend rate
+S3491	Code category (1 = Group code, 2 = Maturity code)
+S3492	Group maturity code (Group code = "XXXXX", Maturity code = "XXX ")
+S3493	Group maturity code name
+S3494	Group maturity code levels (Group code = 0,1,2,3,4,  Maturity code = 0,1,2,3)
+S3495	Maturity code
+S3496	Pure price index
+S3497	Total return index
+S3498	Market price index
+S3499	Reinvest 0 index
+S3500	Reinvest call index
+S3501	Pure price index weight
+S3502	Total return index weight
+S3503	Market price index weight
+S3504	Reinvest 0 index weight
+S3505	Reinvest call index weight
+S3506	Mixed index pure price index weight
+S3507	Mixed index total return index weight
+S3508	Mixed index reinvest 0 index weight
+S3509	Mixed index reinvest call index weight
+S3510	Average duration
+S3511	Average convexity
+S3512	Average remaining maturity
+S3513	Average current yield
+S3514	Average spread sign
+S3515	Average spread
+S3516	Number of securities
+S3517	Issued amount
+S3518	Issued amount weight
+S3519	Opening price total amount
+S3520	Opening price total amount weight
+S3521	Accumulative cash
+S3522	Cash inflow
+S3523	Reinvest call cash
+S3524	Retail bond type code (GA = KTB, MA = MSB, BA = Fin. Bond, SA = Non-fin. Special Bond, CA = Corporate Bond, ET = Municipal Bonds, EC = Others)
+S3525	Retail issue category Korean
+S3526	Retail issue category English
+S3527	Retail bond generated quotes possibility (N = Impossible to send generated quotes, Y = Possible to generated quotes)
+S3528	Ask trading volume (Unit = share)
+S3529	Ask trading value (Unit = KRW)
+S3530	Bid trading volume (Unit = share)
+S3531	Bid trading value (Unit = KRW)
+S3532	PT month good type code (1 = The first nearby month,  9 = Others)
+S3533	Trust principle type code (10 =  Trust trading,  30 =  Principal trading)
+S3534	Member number
+S3535	Stock ask volume (Unit =  1000 Shares) if it is Less than decimal place round up
+S3536	Stock ask value (Unit = Million KRW) if it is Less than decimal place round up
+S3537	Stock bid volume
+S3538	Stock bid value
+S3539	Futures ask volume (Unit = Contract)
+S3540	Futures ask value (Unit = Million KRW) if it is Less than decimal place round up
+S3541	Futures bid volume (Unit = Contract)
+S3542	Futures bid value (Unit = Million KRW) if it is Less than decimal place round up
+S3543	Call ask volume (Unit = Contract)
+S3544	Call ask value (Unit = Million KRW) if it is Less than decimal place round up
+S3545	Call bid volume
+S3546	Call bid value
+S3547	Put ask volume (Unit = Contract)
+S3548	Put ask value (Unit = Million KRW) if it is Less than decimal place round up
+S3549	Put bid volume (Unit = Contract)
+S3550	Put bid value (Unit = Million KRW) if it is Less than decimal place round up
+S3551	Stock errors quantity
+S3552	Stock errors cause
+S3553	Arbitrage ask trust best quote volume
+S3554	Arbitrage ask proprietary best quote volume
+S3555	Arbitrage bid trust best quote volume
+S3556	Arbitrage bid proprietary best quote volume
+S3557	Non arbitrage ask trust best quote volume
+S3558	Non arbitrage ask proprietary best quote volume
+S3559	Non arbitrage bid  trust best quote volume
+S3560	Non arbitrage bid  proprietary best quote volume
+S3561	Arbitrage ask trust best quote amount
+S3562	Arbitrage ask proprietary best quote amount
+S3563	Arbitrage bid trust best quote amount
+S3564	Arbitrage bid proprietary best quote amount
+S3565	Non arbitrage ask trust best quote amount
+S3566	Non arbitrage ask proprietary best quote amount
+S3567	Non arbitrage bid trust best quote amount
+S3568	Non arbitrage bid proprietary best quote amount
+S3569	Own stock report (0 = N/A,  N =  Own stock direct general, S = Own stock direct stock option)
+S3570	Bid or Ask (0 = Trust, 1 = Ask,  2 = Bid)
+S3571	Treasury stock application date given in format YYYYMMDD
+S3572	Treasury stock trading declaration Start Date given in format YYYYMMDD
+S3573	Treasury stock trading declaration End Date given in format YYYYMMDD
+S3574	Treasury stock trading method code: 0 = N/A, 1 = general, 2 =  such as Bank of Korea, 3 = such as government
+S3575	Treasury stock application market/member participant number. For example = 00001
+S3576	Open price single price auction application quantity on application date during declaration period
+S3577	Connected application quantity on application date during declaration date
+S3578	Treasury stock off-hour declaration quantity in off-hour session (AM,PM)
+S3579	Accumulated treasury stock trading quantity
+S3580	Accumulated treasury Stock trading value
+S3581	Market participant number
+S3582	Market participant name in Korean
+S3583	Market participant name in English
+S3584	Market participant abbreviated name in Korean
+S3585	Long name of the instrument
+S3586	Index Arbitrage Sell Order Remaining volume (pre-disclosed)
+S3587	Index Arbitrage Buy Order Remaining volume (pre-disclosed)
+S3588	Non Arbitrage Sell Order Remaining volume (pre-disclosed)
+S3589	Non Arbitrage Buy Order Remaining volume (pre-disclosed)
+S3590	Index Arbitrage Sell Order Remaining volume (post-disclosed)
+S3591	Index Arbitrage Buy Order Remaining volume (post-disclosed)
+S3592	Non Arbitrage Sell Order Remaining volume (post-disclosed)
+S3593	Non Arbitrage Buy Order Remaining volume (post-disclosed)
+S3594	Contains the overflow if the contract symbol is greater than 35 chars
+S3595	Hedge Market ID
+S3596	Long life eligible - 'Y' or 'N'; 'Y' = instrument eligible for "long life" orders
+S3597	KOSCOM product type code - 1. ETF (Investment Company type), 2. ETF (Beneficiary Fund type), 3.ETN, 4.ELS-type ETN
+S3598	Calculation institution code
+S3599	Large size classification(2)+Medium size classification(2)+Small size classification(2)
+S3600	Index Seq. Number
+S3601	Tracking index leverage inverse type code - P1: General(1), P2: 2X Leverage(2), N1: 1X Inverse(-1), N2: 2X Inverse(-2)
+S3602	Reference index leverage inverse type code - P1: General(1), P2: 2X Leverage(2), N1: 1X Inverse(-1), N2: 2X Inverse(-2)
+S3603	Asset classification id 1 - Large size classification(2)+Medium size classification(2)+Small size classification(2)
+S3604	Asset classification id 2 - Large size classification(2)+Medium size classification(2)+Small size classification(2)
+S3605	LP order possibility - 'Y' / 'N'
+S3606	KOSADAQ 150 Index issue - 'Y' / 'N'
+S3607	Effective amount for filters for routed orders.
+S3608	The minimum quantity to be displayed. A zero value means that, for this security, orders with hidden volume are not allowed
+S3609	Minimum amount for agreed blocks.
+S3610	Minimum amount for parametrised blocks
+S3611	Minimum capital
+S3612	Quarterly average turnover
+S3613	String  Fee type
+S3614	Reference Stock Exchange
+S3615	Performance indicator, valid values are: '+' Over valuation value, '-' Under valuation value
+S3616	Number of instruments present in a type of market
+S3617	Minimum periodic auction duration
+S3618	Periodic auction minimum order entry size
+S3619	Periodic auction minimum order entry notional
+S3620	Currency used for the settlement
+S3621	Trade type eligibility details for security - 1 = Electronic Match Eligible, 3 = Block Trade Eligible , 7 = Negotiated Quote Eligible
+S3622	Eligibility for GTD/GTC - 1 = GTD/GTC Eligible
+S3623	Refers to the id code of a clearing venue. Default clearing venue id for this order book
+S3624	Convexity
+S3625	The duration in number of years for the bond in question (Macaulay duration)
+S3626	Object identifier of the security group in the source system
+S3627	Classification of tradable security on sub-instrument level. References ID code of the BasicDataTableEntry message.
+S3628	Issuer sign
+S3629	Ranking according to liquidity
+S3630	Indicates if the instrument has a Liquidity Provider
+S3631	MaturityDate
+S3632	Midprice auction
+S3633	Midprice matching
+S3634	Modified duration
+S3635	Settlement schedule (T+x)
+S3636	Object identifier of the tradable security in the source system
+S3637	Price type (monetary amount or yield)
+S3638	The sector of the index. This field refers to the IdCode of the BasicDataSector message
+S3639	Security type
+S3640	Object identity in source system
+S3641	Volume dimension
+S3642	Weekly price band limit high
+S3643	Weekly price band limit low
+S3644	Monthly price band limit high
+S3645	Monthly price band limit low
+S3646	Quarterly price band limit high
+S3647	Quarterly price band limit low
+S3648	Yearly price band limit high
+S3649	Yearly price band limit low
+S3650	Final price band limit high
+S3651	Final price band limit low
+S3652	Permitted to Trade
+S3653	Credit Rating
+S3654	Volume freeze percentage w.r.t. issued capital
+S3655	Date of readmission
+S3656	Date from when physical delivery of share certificates is stopped for book closure.
+S3657	No delivery end date
+S3658	Various NSE market flags
+S3659	Warning percent
+S3660	Date at which the record books in the company for shareholder names starts
+S3661	Date at which the record books in the company for shareholder names ends
+S3662	This is the spread value per security
+S3663	Additional information
+S3664	Freeze quantity
+S3665	Warning quantity
+S3666	Maximum unexecuted order to trade ratio count
+S3667	Maximum unexecuted order to trade ratio volume
+S3668	Indicates whether a volume cap is in place
+S3669	Minimum notional value for an order or trade to be considered Large in Scale (LIS)
+S3670	A comma-separated list of "<volume>:<ticksize>" pairs
+S3671	Whether or not stock can be traded in pre-opening session. "Y" - eligible, "N" - not eligible
+S3672	Whether the stock belongs to the Main board or the Development board, "1" - Main board, "2" - Development board
+S3673	Base price. Similar to IPO price but can vary after a corporate action.
+S3674	Issuer's product name
+S3675	SSPA categorisation code (3 digits)
+S3676	SSPA categorisation code (4 digits)
+S3677	Class name level 1
+S3678	Class name level 2
+S3679	Attribute name
+S3680	IBT type code
+S3681	IBT type code description
+S3682	Traded in percent flag "Y" = Yes, "N" = No
+S3683	Clean priced flag "Y" = Yes, "N" = No
+S3684	Quanto flag "Y" = Yes, "N" = No
+S3685	Open end flag "Y" = Yes, "N" = No
+S3686	Initial pricing begin date
+S3687	Initial pricing end date
+S3688	Initial pricing function cd.
+S3689	Final pricing begin date
+S3690	Final pricing end date
+S3691	Final pricing function cd.
+S3692	Issue currency code
+S3693	Reference denomination
+S3694	Principal floor level in % capital protection level
+S3695	Principal cap level in %
+S3696	Delivery type code
+S3697	Early redemption reason code
+S3698	Redemption date
+S3699	Upside participation in %
+S3700	Downside participation in %
+S3701	Ratio
+S3702	Coupon premium in % p.a. component of coupon free of
+S3703	Coupon interest in % p.a. component of coupon not fre
+S3704	Coupon min. in % p.a.
+S3705	Coupon max. in % p.a.
+S3706	Coupon offset rate in % p.a.
+S3707	Coupon underlying particip. scale in % p.a.
+S3708	Mgmt fee rate base type code for codes see section 6
+S3709	Strike 1 alias - name / description (sub-item 1)
+S3710	Strike 1 strike barrier type code (sub-item 2)
+S3711	Strike 2 alias - name / descr. (sub-item 1)
+S3712	Strike 2 strike barrier t. c. (sub-item 2)
+S3713	Strike 3 alias - name / descr. (sub-item 1)
+S3714	Strike 3 strike barrier t. c. (sub-item 2)
+S3715	Strike 4 alias - name / descr. (sub-item 1)
+S3716	Strike 4 strike barrier t. c. (sub-item 2)
+S3717	Collateralisation flag (COSI) "Y" = Yes, "N" = No
+S3718	Number needed
+S3719	Entitles to unit
+S3720	SSPA star feature flag "Y" = Yes, "N" = No
+S3721	SSPA star feat. code #1
+S3722	SSPA star feat. code #2
+S3723	SSPA star feat. code #3
+S3724	SSPA star feat. code #4
+S3725	SSPA star feat. code #5
+S3726	Asset class
+S3727	Description of underlying(s)
+S3728	Term sheet link (URL) German
+S3729	Term sheet link (URL) English
+S3730	Term sheet link (URL) French
+S3731	Underlying ISIN
+S3732	Underlying weight in %
+S3733	Underlying per denomination
+S3734	Underlying initial fixing - value (sub-item 1)
+S3735	Underlying initial fixing - currency code (sub-item 2
+S3736	Underlying strike 1 - value (sub-item 1)
+S3737	Underlying strike 1 - currency code (sub-item 2)
+S3738	Underlying strike 1 - observation begin date (sub-ite
+S3739	Underlying strike 1 - observation end date (sub-item
+S3740	Underlying strike 2 - value (sub-item 1)
+S3741	Underlying strike 2 - currency code (sub-item 2)
+S3742	Underlying strike 2 - obs. begin date (sub-item 3)
+S3743	Underlying strike 2 - obs. end date (sub-item 4)
+S3744	Underlying strike 3 - value (sub-item 1)
+S3745	Underlying strike 3 - currency code (sub-item 2)
+S3746	Underlying strike 3 - obs. begin date (sub-item 3)
+S3747	Underlying strike 3 - obs. end date (sub-item 4)
+S3748	Underlying strike 4 - value (sub-item 1)
+S3749	Underlying strike 4 - currency code (sub-item 2)
+S3750	Underlying strike 4 - obs. begin date (sub-item 3)
+S3751	Underlying strike 4 - obs. end date (sub-item 4)
+S3771	Indicates the action used when updating the security
+S3772	The number of decimals used for pricing the instrument
+S3773	Unique number identifying the instrument
+S3774	Currency used for the settlement
+S3775	Month and year of the maturity
+S3776	Specifies when the contract will settle
+S3777	Date of security activation if different from IssueDate
+S3778	Indicates Order settlement period
+S3779	Specific date of the settlement
+S3780	Indicates the UTC timestamp when trading for this security expires
+S3781	Currency of option's strike price
+S3782	Dirty price of the bond
+S3783	Clean price of the bond
+S3784	Market ID
+S3785	Market Segment Description
+S3786	Parent Market Segment ID
+S3787	Start Tick Price Range
+S3788	Tick Increment
+S3789	Min Trade Volume
+S3790	Min Price Increment
+S3791	Multileg Price Method
+S3792	Contract Multiplier
+S3793	Lot Type
+S3794	Min Lot Size
+S3795	Underlying Security Exchange
+S3796	Underlying Factor
+S3797	Derivative Security Exchange
+S3798	Derivative Min Price Increment
+S3799	Derivative Contract Multiplier
+S3800	The percentage of total volume that traded on the listing market
+S3801	List of trading venues, separated by commas (e.g. "CHIX,OMG,CX2,ABC")
+S3802	The percentage of total volume that traded in each of the trading venues, separated by commas (e.g. "10.25,20.5,5.75,15")
+S3803	Total volume traded on venues on the previous trading day
+S3804	Full name for the MIC code
+S3805	Visibility, I=integrated, M=Mid-Point, B=both
+S3806	Threshold for hidden order entry
+S3807	The minimum quantity allowed to buy
+S3808	The maximum quantity allowed to buy
+S3809	The minimum quantity allowed to sell
+S3810	The maximum quantity allowed to sell
+S3811	Guarantee in settlement system. 0 = cleared & guaranteed. 1 = cleared but not guaranteed. 2 = Not clearable
+S3812	No. days between trade & settlement dates. Valid vals = 0-10. Other values: Value for securities, 'X' = 2 days. Value for Lend/Borrow, 'Z' = 3 days.
+S3813	DarkEligibility
+S3814	DarkMinimumQuantity
+S3815	DarkLISThreshold
+S3816	Close market capitalization
+S3817	Close divisor
+S3818	Percentage change month to date
+S3819	Month to date index dividend
+S3820	Current price/earning ratio
+S3821	One year forward price/earning ratio
+S3822	Two year forward price/earning ratio
+S3823	12 month trailing price/earning ratio
+S3824	Price/book value
+S3825	Price/cash flow
+S3826	Price/sales
+S3827	Return on equity
+S3828	Dividend & yield
+S3829	Index yield
+S3830	Value traded
+S3831	Identifies the matching engine partition the instrument belongs to
+S3832	Specifies if Micro Auction is enabled for the instrument
+S3833	Min qty allowed in RFQ submitted for instrument as a multiple of Lot Size. If 0, validation turned off. Bonds only.
+S3834	Max % deviation between quote and bid/ask prices of normal order book. When 0, spread validation turned off. Bonds only.
+S3835	Low execution range of trade execution range
+S3836	High execution range of trade execution range
+S3837	Specifies the duration of the CPP session. Defined in minutes.
+S3838	Defines the maximum duration of the CPX session. Defined in minutes.
+S3839	Duration of the volume auction call session in minutes.
