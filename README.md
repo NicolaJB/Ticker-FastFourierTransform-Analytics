@@ -109,6 +109,10 @@ df = generate_synthetic_ticker_data(
 - Interactive dashboards using Streamlit or Dash.
 - Multi-instrument heatmaps of dominant frequencies or spectral entropy.
 
+### Data Source
+The example dataset utilised in this repository is a structured snapshot export containing static and dynamic fields representing instrument metadata and market quote values. It is provided for demonstration and analysis purposes only and does not redistribute or imply access to live exchange feeds or proprietary licensed data.
+
+
 ### License
 MIT License.
 
