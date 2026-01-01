@@ -1,90 +1,104 @@
 # TickerFFT-Analytics
 
-### Market Pattern Detection via Fourier Transform and Anomaly Detection
+### Multi-Instrument Market Pattern Detection via Rolling FFT and Anomaly Detection
 
-This project demonstrates a modular Python pipeline for multi-instrument financial time-series data. It extracts rolling frequency-domain features using the Fast Fourier Transform (FFT) and detects anomalous market regimes using unsupervised machine learning.
-
+TickerFFT-Analytics is a modular Python pipeline for processing multi-instrument financial time-series data. It computes rolling frequency-domain features using the Fast Fourier Transform (FFT) and detects anomalous market regimes per instrument using unsupervised machine learning.
+The project is designed for reproducibility, clear visualisation, and domain-aware analysis of market patterns.
 
 ## Features
 
 - **Data Processing**
   - Ingests raw instrument data from structured text files (`data.txt`, `StaticFields.txt`, `DynamicFields.txt`).
-  - Separates static and dynamic fields, and outputs a clean CSV for downstream analysis.
+  - Separates static and dynamic fields, producing clean CSV outputs for downstream analysis.
   
 - **Feature Engineering**
-  - Computes rolling FFT features, including dominant frequency, total power, and spectral entropy.
-  - Handles multi-instrument datasets with sliding windows.
-  - Supports optional computation of log-returns and volatility features.
+  - Computes rolling FFT features: dominant frequency, total power, and spectral entropy.
+  - Handles multi-instrument datasets using sliding windows.
+  - Supports per-instrument analysis for better signal isolation.
 
 - **Anomaly Detection**
-  - Uses `Isolation Forest` to detect unusual market regimes per instrument.
-  - Supports anomaly scoring for enhanced visualisation and analysis.
+  - Applies `Isolation Forest` to detect unusual market regimes per instrument.
+  - Flags anomalous windows and calculates % anomalous windows for ranking instruments.
+  - High-risk instruments are identified automatically.
 
-- **Visualization**
-  - Plots FFT-derived total power over time, highlighting normal vs anomalous regimes.
-  - Log-scaling for total power ensures extreme volatility events remain readable.
-  - Can be extended to interactive dashboards using Streamlit or Dash.
+- **Visualisation**
+  - Figures are saved in `charts/` automatically.
+  - **Figure 1:** Distribution of dominant frequencies.
+  - **Figure 2:** Top 20 instruments by % anomalous windows (high-risk highlighted in red/orange, bolded labels).
+  - **Figures 3–7:** Total power over time for the top 5 high-risk instruments, with anomalies highlighted in red.
+  - Time axes are consistent across instruments; flattening after ~16:00 reflects market close.
 
-- **Synthetic Data Support**
-  - Provides a utility to generate reproducible multi-instrument synthetic time-series data for testing and demonstration.
+- **Reproducibility**
+  - Fully code-driven pipeline; no Jupyter notebooks required.
+  - CSV outputs allow inspection and further analysis.
+  - `validate_pipeline.py` available for pipeline sanity checks.
 
 ## Project Structure
 
 ```bash
 TickerFFT-Analytics/
 │
-├── data/ # Input/output files
-│ ├── data.txt
-│ ├── StaticFields.txt
-│ ├── DynamicFields.txt
-│ └── output_*.csv # Processed CSV outputs
+├── data/                     # Raw input files and processed CSVs
+│   ├── data.txt
+│   ├── StaticFields.txt
+│   ├── DynamicFields.txt
+│   └── fft_features*.csv     # Processed features and anomaly outputs
 │
-├── src/ # Main Python modules
-│ ├── init.py
-│ ├── InstrumentDataProcessor.py
-│ ├── FFTFeatureExtractor.py
-│ ├── AnomalyDetector.py
-│ └── utils.py # Synthetic data generator and helpers
+├── src/                      # Core Python modules
+│   ├── __init__.py
+│   ├── InstrumentDataProcessor.py
+│   ├── FFTFeatureExtractor.py
+│   ├── AnomalyDetector.py
+│   ├── dashboard.py          # Financial dashboard generation
+│   └── visualization.py      # Plotting functions
 │
-├── notebooks/ # Jupyter notebooks
-│ └── fft_visualisation.ipynb
+├── charts/                   # Auto-generated figures (created by main.py)
+│   ├── figure_1_dominant_frequency.png
+│   ├── figure_2_top_anomalies.png
+│   ├── figure_3_total_power_*.png
+│   └── ...
 │
-├── tests/ # Unit tests
-│ ├── test_data_processor.py
-│ ├── test_fft_extractor.py
-│ └── test_anomaly_detector.py
-│
-├── requirements.txt # Python dependencies
-├── README.md # Project description
-└── main.py # Example pipeline script
+├── main.py                   # Full pipeline execution
+├── validate_pipeline.py      # Pipeline validation / sanity checks
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project description
 ```
-
-## Getting Started
-
 ### Prerequisites
+Python 3.11+
 
-- Python 3.11+ recommended
-- Install required packages:
-
+Install required packages:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+```
 Running the Pipeline
-Process raw ticker data:
-```
 ```bash
-python main.py
+source backend/bin/activate   # or wherever your venv is
+python3 main.py
 ```
-Compute FFT features and detect anomalies (handled automatically in main.py).
+This will:
+- Process raw instrument data.
+- Compute rolling FFT features.
+- Run per-instrument anomaly detection.
+- Generate financial dashboard and visualisations in charts/.
 
-### View results:
+### Outputs
+- fft_features.csv → rolling FFT features per instrument.
+- fft_features_with_anomalies.csv → FFT features with anomaly flags.
 
-- FFT features are saved as fft_features.csv.
-- Anomaly detection results are saved as fft_features_with_anomalies.csv.
-- Visualisations can be generated in notebooks/fft_visualisation.ipynb.
+- charts/ → PNG visualisations:
+  - Figure 1: Dominant frequency histogram.
+  - Figure 2: Top 20 anomalous instruments bar chart.
+  - Figures 3–7: Total power over time for top 5 high-risk instruments.
+
+### Time Axis Notes
+The X-axis in total power plots may flatten or drop after ~16:00.
+
+This reflects market close, not a bug or anomaly in the pipeline.
 
 ### Using Synthetic Data
-For testing or demonstration without real market data:
-```bash
+For testing or demonstration without live market data:
+
+```python
 from src.utils import generate_synthetic_ticker_data
 
 df = generate_synthetic_ticker_data(
@@ -94,25 +108,16 @@ df = generate_synthetic_ticker_data(
 )
 ```
 ### Technical Highlights
-
-**Data Engineering**: Parsing raw structured text files, handling dynamic and static fields, pivoting for ML pipelines.
-
-**Feature Engineering**: FFT-based rolling window feature extraction; log-return and volatility support.
-
-**Machine Learning**: Unsupervised anomaly detection via Isolation Forest; per-instrument anomaly scoring.
-
-**Visualisation**: Clear plotting of market regimes using log-scaled FFT power; supports multi-instrument dashboards.
+- Data Engineering: Parsing structured text, separating dynamic and static fields, producing machine-learning-ready CSVs.
+- Feature Engineering: Rolling FFT, total power, spectral entropy, per-instrument windows.
+- Machine Learning: Isolation Forest anomaly detection, high-risk scoring.
+- Visualisation: Clear, reproducible plots highlighting anomalies and high-risk instruments.
 
 ### Potential Extensions
 - Integration with quantitative backtesting frameworks.
-- Classical → Quantum FFT comparison for academic or research purposes.
 - Interactive dashboards using Streamlit or Dash.
 - Multi-instrument heatmaps of dominant frequencies or spectral entropy.
-
-### Data Source
-The example dataset utilised in this repository is a structured snapshot export containing static and dynamic fields representing instrument metadata and market quote values. It is provided for demonstration and analysis purposes only and does not redistribute or imply access to live exchange feeds or proprietary licensed data.
-
+- Academic comparisons (e.g., classical vs quantum FFT).
 
 ### License
-MIT License.
-
+MIT License
